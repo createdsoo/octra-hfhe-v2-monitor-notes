@@ -1,0 +1,692 @@
+upstream_main 019380c97543 forks 33
+interesting_count 33
+[
+  {
+    "name": "main",
+    "pushed_at": "2026-07-11T03:35:26Z",
+    "repo": "SNAKBILLION/hfhe-challenge",
+    "sha": "d9d29d505e28",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-11T03:35:26Z",
+    "repo": "vansham/hfhe-challenge",
+    "sha": "d9d29d505e28",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "akidry/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "hfhe-v2-cryptanalysis",
+    "pushed_at": "2026-07-12T06:03:19Z",
+    "repo": "ifeoluwaaj/hfhe-challenge",
+    "sha": "ffed46e744bb",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-12T06:03:19Z",
+    "repo": "ifeoluwaaj/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "JH-321/hfhe-challenge-1",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "k3llgh/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "emma31-dev/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-10T17:46:22Z",
+    "repo": "nxpath/hfhe-challenge",
+    "sha": "8a8df807bc12",
+    "upstream_main": false
+  },
+  {
+    "name": "claude/hfhe-challenge-progress-b6ld5x",
+    "pushed_at": "2026-07-14T09:17:06Z",
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "sha": "c2897e67bbd5",
+    "upstream_main": false
+  },
+  {
+    "name": "claude/hfhe-challenge-v2-8bntzl",
+    "pushed_at": "2026-07-14T09:17:06Z",
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "sha": "93ff858fb947",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-14T09:17:06Z",
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "sha": "efb24174ac4c",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-10T08:23:41Z",
+    "repo": "TonyLegend-77/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "patch-1",
+    "pushed_at": "2026-07-10T08:23:41Z",
+    "repo": "TonyLegend-77/hfhe-challenge",
+    "sha": "832890554fff",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "Giri-Aayush/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "0xjagadbumi/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-10T06:43:21Z",
+    "repo": "Yanu403/hfhe-challenge",
+    "sha": "5e25d305429d",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "jigggyzigggy/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-10T05:23:30Z",
+    "repo": "pymparticles/hfhe-challenge",
+    "sha": "6d845e07f82c",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "uChiron/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "cursor/lpn-prf-bridge-1ef0",
+    "pushed_at": "2026-07-20T21:03:24Z",
+    "repo": "Wezix/hfhe-challenge-test",
+    "sha": "eb4035eccc3b",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-20T21:03:24Z",
+    "repo": "Wezix/hfhe-challenge-test",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "Instant-Futures-Trading/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "benevolentcyka/hfhe-challenge",
+    "sha": "0d08e9622921",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T12:42:32Z",
+    "repo": "Instantfutures/hfhe-challenge",
+    "sha": "25ab0aaee0f5",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "syt4sh1/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "Naazj/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "Olisehgenesis/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "zh469525-sudo/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "talented634/challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "gunksd/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "debbiesempert/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  },
+  {
+    "name": "main",
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "harf101/hfhe-challenge",
+    "sha": "900255d11fab",
+    "upstream_main": false
+  }
+]
+summary
+[
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "019380c97543",
+        "upstream_main": true
+      }
+    ],
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "repo": "Vibibiys/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-16T16:44:05Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "019380c97543",
+        "upstream_main": true
+      }
+    ],
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "repo": "Prot420/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-16T09:37:53Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "019380c97543",
+        "upstream_main": true
+      }
+    ],
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "repo": "0xTaaa/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-15T11:52:21Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "019380c97543",
+        "upstream_main": true
+      }
+    ],
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "repo": "zhaoge7786/hfhe-challenge",
+    "tags": 1,
+    "updated_at": "2026-07-15T11:30:50Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "019380c97543",
+        "upstream_main": true
+      }
+    ],
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "repo": "erlanggada/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-15T11:17:02Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "d9d29d505e28",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-11T03:35:26Z",
+    "repo": "SNAKBILLION/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-11T07:41:01Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "d9d29d505e28",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-11T03:35:26Z",
+    "repo": "vansham/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-11T07:32:57Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "akidry/hfhe-challenge",
+    "tags": 1,
+    "updated_at": "2026-07-10T16:49:14Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "hfhe-v2-cryptanalysis",
+        "sha": "ffed46e744bb",
+        "upstream_main": false
+      },
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-12T06:03:19Z",
+    "repo": "ifeoluwaaj/hfhe-challenge",
+    "tags": 1,
+    "updated_at": "2026-07-10T16:37:04Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "JH-321/hfhe-challenge-1",
+    "tags": 1,
+    "updated_at": "2026-07-10T16:31:08Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "k3llgh/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T15:32:53Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "emma31-dev/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T12:22:42Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "8a8df807bc12",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-10T17:46:22Z",
+    "repo": "nxpath/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T10:18:16Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "claude/hfhe-challenge-progress-b6ld5x",
+        "sha": "c2897e67bbd5",
+        "upstream_main": false
+      },
+      {
+        "name": "claude/hfhe-challenge-v2-8bntzl",
+        "sha": "93ff858fb947",
+        "upstream_main": false
+      },
+      {
+        "name": "main",
+        "sha": "efb24174ac4c",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-14T09:17:06Z",
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "tags": 0,
+    "updated_at": "2026-07-14T09:17:16Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      },
+      {
+        "name": "patch-1",
+        "sha": "832890554fff",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-10T08:23:41Z",
+    "repo": "TonyLegend-77/hfhe-challenge",
+    "tags": 1,
+    "updated_at": "2026-07-10T08:23:04Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "Giri-Aayush/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T08:20:38Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "0xjagadbumi/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T07:34:41Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "5e25d305429d",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-10T06:43:21Z",
+    "repo": "Yanu403/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T06:43:34Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "jigggyzigggy/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T05:49:15Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "6d845e07f82c",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-10T05:23:30Z",
+    "repo": "pymparticles/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T05:23:34Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "uChiron/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T01:12:08Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "cursor/lpn-prf-bridge-1ef0",
+        "sha": "eb4035eccc3b",
+        "upstream_main": false
+      },
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-20T21:03:24Z",
+    "repo": "Wezix/hfhe-challenge-test",
+    "tags": 0,
+    "updated_at": "2026-07-10T00:52:35Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "Instant-Futures-Trading/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-10T00:34:14Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "0d08e9622921",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-09T21:49:59Z",
+    "repo": "benevolentcyka/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-09T23:24:23Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "25ab0aaee0f5",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T12:42:32Z",
+    "repo": "Instantfutures/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T18:57:45Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "syt4sh1/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T12:33:19Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "Naazj/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T12:17:17Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "Olisehgenesis/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T12:06:12Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "zh469525-sudo/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T11:08:55Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "talented634/challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T10:53:01Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "gunksd/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T10:37:01Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "debbiesempert/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T09:51:38Z"
+  },
+  {
+    "branches": [
+      {
+        "name": "main",
+        "sha": "900255d11fab",
+        "upstream_main": false
+      }
+    ],
+    "pushed_at": "2026-07-07T09:15:33Z",
+    "repo": "harf101/hfhe-challenge",
+    "tags": 0,
+    "updated_at": "2026-07-07T09:37:50Z"
+  }
+]

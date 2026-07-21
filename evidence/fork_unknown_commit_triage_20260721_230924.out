@@ -1,0 +1,47 @@
+## Yanu403/hfhe-challenge main
+clone_rc 0
+commits
+  5e25d30 2026-07-10T13:43:21+07:00 Update README to clarify challenge details
+  0d08e96 2026-07-09T22:49:58+01:00 Update README.md
+  899d93a 2026-07-09T22:32:30+01:00 Update README.md
+  547271b 2026-07-09T21:29:55Z active
+  841504a 2026-07-09T21:17:19Z v2 final
+  25afde5 2026-07-09T21:10:09Z v2 final
+  88a72b7 2026-07-09T21:08:01Z v2 final
+  e4645c9 2026-07-09T20:33:45Z publish bounty challenge v2
+file_count 9 suspicious_names 1
+  secret.ct 1963107
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "plaintext": 9, "private key": 0, "recrypt": 0, "rk.sec": 0, "sk.prf": 2, "solved": 0}
+ hit README.md 490 plaintext
+ hit manifest.json 750 plaintext
+ hit source/hfhe_bounty_artifact.cpp 17289 plaintext
+ hit source/pvac_artifact_serialize.hpp 14434 sk.prf
+## pymparticles/hfhe-challenge main
+clone_rc 0
+commits
+  6d845e0 2026-07-10T13:23:30+08:00 Revise README for HFHE Challenge v2
+  0d08e96 2026-07-09T22:49:58+01:00 Update README.md
+  899d93a 2026-07-09T22:32:30+01:00 Update README.md
+  547271b 2026-07-09T21:29:55Z active
+  841504a 2026-07-09T21:17:19Z v2 final
+  25afde5 2026-07-09T21:10:09Z v2 final
+  88a72b7 2026-07-09T21:08:01Z v2 final
+  e4645c9 2026-07-09T20:33:45Z publish bounty challenge v2
+file_count 9 suspicious_names 1
+  secret.ct 1963107
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "plaintext": 8, "private key": 0, "recrypt": 0, "rk.sec": 0, "sk.prf": 2, "solved": 0}
+ hit manifest.json 750 plaintext
+ hit source/hfhe_bounty_artifact.cpp 17289 plaintext
+ hit source/pvac_artifact_serialize.hpp 14434 sk.prf
+## Instantfutures/hfhe-challenge main
+clone_rc 0
+commits
+  25ab0aa 2026-07-07T13:40:39+01:00 Revise README for HFHE challenge status and details
+  900255d 2026-07-07T10:15:13+01:00 publish HFHE challenge
+file_count 9 suspicious_names 0
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 8, "plaintext": 8, "private key": 0, "recrypt": 6, "rk.sec": 0, "sk.prf": 2, "solved": 0}
+ hit params.json 536 plaintext
+ hit README.md 878 plaintext
+ hit manifest.json 1330 plaintext,mnemonic
+ hit source/hfhe_seed_artifact.cpp 9001 plaintext,mnemonic
+ hit source/pvac_artifact_serialize.hpp 14767 recrypt,sk.prf

@@ -1,0 +1,5 @@
+mode auth token_used True
+repo {'pushed_at': '2026-07-11T08:49:01Z', 'updated_at': '2026-07-16T14:08:35Z', 'forks_count': 33, 'open_issues_count': 2, 'stargazers_count': 30, 'default_branch': 'main'}
+pulls count 4 ids [4, 3, 2, 1]
+issues count 0 ids []
+forks count 33 ids ['Vibibiys/hfhe-challenge', 'Prot420/hfhe-challenge', '0xTaaa/hfhe-challenge', 'zhaoge7786/hfhe-challenge', 'erlanggada/hfhe-challenge', 'SNAKBILLION/hfhe-challenge', 'vansham/hfhe-challenge', 'akidry/hfhe-challenge', 'ifeoluwaaj/hfhe-challenge', 'JH-321/hfhe-challenge-1', 'k3llgh/hfhe-challenge', 'emma31-dev/hfhe-challenge']

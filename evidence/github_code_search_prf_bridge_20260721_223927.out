@@ -1,0 +1,14 @@
+## query "lpn_prf_bridge"
+total_count 0 incomplete False
+## query "partial_word_sweep" "prf_k"
+total_count 0 incomplete False
+## query "prf_k_is_sufficient_given_R1_samples"
+total_count 0 incomplete False
+## query "HIT_prf_k_hex" "octra"
+total_count 0 incomplete False
+## query "pair_sweep_hits" "octra"
+total_count 0 incomplete False
+## query "high_sweep_hits" "octra"
+total_count 0 incomplete False
+## query "ct00_l0_s0_pvac_prf_r_1.jsonl" "HIT_prf_k"
+total_count 0 incomplete False

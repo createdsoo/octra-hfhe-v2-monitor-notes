@@ -1,0 +1,275 @@
+## playboy8889/hfhe-v2-mask-ledger
+clone_rc 0
+commits
+  db4b24a 2026-07-20T19:58:20+08:00 Add HFHE v2 monitor status 20260720_115501 UTC
+  84d1dc2 2026-07-20T18:59:28+08:00 Add HFHE v2 monitor status 20260720_105458 UTC
+  d293538 2026-07-20T18:28:47+08:00 Add HFHE v2 monitor status 20260720_102500 UTC
+  f8a5ef0 2026-07-20T17:59:00+08:00 Add HFHE v2 monitor status 20260720_095504 UTC
+  4587da7 2026-07-20T17:28:40+08:00 Add HFHE v2 monitor status 20260720_092505 UTC
+  dd26d35 2026-07-20T17:19:29+08:00 Add HFHE v2 monitor status 20260720_085452 UTC
+  f500059 2026-07-20T16:47:51+08:00 Add HFHE v2 monitor status 20260720_084226 UTC
+  b747446 2026-07-20T14:59:21+08:00 Record latest public-state sweep
+file_count 1905 suspicious_names 18
+  evidence/recrypt_docs_current_triage_20260718_194924.out 528
+  evidence/eienel_public_analysis_triage_20260717_124340.out 876
+  evidence/code_search_prf_route_triage_20260717_151447.out 528
+  evidence/lpn_samples_route_refresh_20260717_144417.out 606
+  evidence/tco_security_analysis_refresh_20260718_174913.out 82
+  evidence/x_lpn_resurface_detail_20260718_191911.out 7061
+  evidence/recrypt_affine_route_triage_20260717_121314.out 924
+  evidence/recrypt_docs_formalization_triage_20260718_101819.out 375
+  evidence/kubo_cmd_hfhe_v2_solver_artifact_compare_20260716_084046.out 3315
+  evidence/recrypt_rku_route_source_20260718.out 30234
+  evidence/recrypt_rku_route_triage_20260718_044800.out 998
+  evidence/prf_domain_dependency_audit_20260715_044233.out 2985
+  evidence/kubo_cmd_hfhe_v2_solver_triage_20260716_084019.out 2159
+  evidence/eienel_security_analysis_triage_20260718_181920.out 1078
+  audits/lpn_route_feasibility.py 1666
+  audits/lpn_cross_sample_audit.py 5634
+  audits/lpn_feature_bias_audit.py 6150
+  docs/MASK_MODEL.md 1309
+marker_counts {"HIT_prf": 0, "NatKey": 44, "Rku": 563, "Toeplitz": 784, "eval-key": 299, "mnemonic": 215, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 1133, "plaintext": 2733, "private key": 1625, "recrypt": 633, "rk.sec": 76, "secret.ct": 2223, "sk.prf": 1700, "solved": 1814}
+ hit repo_metadata.json 365 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit status_latest.md 1505 Rku,rk.sec,NatKey,eval-key,recrypt,solved,plaintext,private key,secret.ct
+ hit README.md 2861 solved,plaintext,private key,sk.prf,Toeplitz,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260719_202350.out 565 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/web_search_api_20260717_124340.out 821 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260718_005038.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260717_061239.out 1411 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/github_repo_search_20260718_014653.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_html_issue_pr_refresh_20260715_101846.out 644 plaintext,secret.ct
+ hit evidence/auth_full_refresh_20260719_225335.out 115 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260718_024809.out 1094 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260717_034312.out 3125 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260717_031303.out 3828 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260717_014342.out 3828 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260718_084741.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260718_184917.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_001950.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260717_104359.md 4318 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/twitter_public_search_refresh_20260716_030736.out 2998 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260716_093923.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260719_192248.out 378 Rku,recrypt,solved,sk.prf,Toeplitz,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/external_project_watchlist_triage_20260719_090342.out 2800 Rku,plaintext,private key,secret.ct
+ hit evidence/auth_full_refresh_20260717_114334.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260719_055044.md 4231 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/github_repo_search_20260717_174515.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260716_083852.out 7935 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/x_candidate_triage_20260719_225642.out 670 solved,private key
+ hit evidence/official_update_probe_20260715_064510.out 6557 plaintext,secret.ct
+ hit evidence/status_20260718_041709.md 4170 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/public_web_search_20260718_094819.out 628 Rku,solved,plaintext
+ hit evidence/auth_full_refresh_20260717_231615.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_014144.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260718_104844.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260718_111911.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_055044.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_222319.json 9255 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/web_search_api_20260717_114334.out 634 solved,plaintext,private key,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/official_lite_node_delta_20260719_055435.out 5263 recrypt,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/recrypt_docs_current_triage_20260718_194924.out 528 Rku,rk.sec,eval-key,recrypt
+ hit evidence/public_web_search_20260718_174913.out 1255 Rku,eval-key,recrypt,solved,plaintext,sk.prf,Toeplitz
+ hit evidence/auth_full_refresh_20260717_171511.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260718_164914.md 4345 Rku,rk.sec,eval-key,recrypt,solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/auth_full_refresh_20260719_145518.out 124 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260717_001141.md 4597 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/auth_full_refresh_20260719_152259.json 433 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_105114.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/official_issue_pr_refresh_20260716_221111.out 1373 secret.ct
+ hit evidence/public_web_search_20260716_154012.out 966 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260720_042326.out 147 solved,private key
+ hit evidence/auth_full_refresh_20260719_035014.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260716_204204.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260717_074327.out 2837 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/web_search_api_20260719_075117.out 767 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260718_121838.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260716_061104.md 3780 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/public_web_search_20260718_161846.out 1188 Rku,eval-key,recrypt,solved,plaintext,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260718_201952.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260720_042326.out 8197 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/web_search_api_20260717_131348.out 484 plaintext,private key,sk.prf
+ hit evidence/status_20260716_154012.md 3901 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/status_20260717_214551.md 4334 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/github_repo_search_20260718_151911.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/lamafab_octra_hfhe_lean_triage_20260716_191041.out 2694 private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/x_candidate_triage_20260718_191911.out 1405 Rku,eval-key,recrypt,plaintext,private key,mnemonic,sk.prf,Toeplitz
+ hit evidence/auth_full_refresh_20260719_095118.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260716_214349.out 7935 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_104359.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_092122.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260718_145004.out 3052 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260719_215322.out 306 Rku,recrypt,solved,sk.prf,Toeplitz,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_101357.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260716_174042.md 4097 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/twitter_public_search_refresh_20260716_231334.out 3010 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_175307.json 2509 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260718_234937.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/official_issue_pr_refresh_20260720_022341.out 753 plaintext,secret.ct
+ hit evidence/auth_full_refresh_20260717_044145.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260719_014945.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/newest_forks_marker_scan_20260715_115141.out 10240 plaintext,private key,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/eienel_method_refresh_20260719_115617.out 4679 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/status_20260717_114334.md 4855 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/status_20260717_021140.md 4580 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz,secret.ct
+ hit evidence/auth_full_refresh_20260719_004937.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_001141.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/status_20260715_213624.md 2130 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/auth_full_refresh_20260717_094356.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260718_174913.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_065045.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260717_101433.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260717_031255.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_195317.out 115 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260716_131026.out 3431 secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260715_230754.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260718_235015.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/prot420_fork_triage_20260716_093848.out 636 private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260719_032016.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/fork_delta_triage_20260716_171045.out 815 private key,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/smoke_ui_public_audit_triage_20260717_131348.out 621 plaintext,private key,sk.prf,Toeplitz
+ hit evidence/official_issue_pr_refresh_20260717_041141.out 1373 secret.ct
+ hit evidence/official_issue_pr_refresh_20260716_181043.out 1373 secret.ct
+ hit evidence/auth_full_refresh_20260718_155003.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260717_031141.out 1343 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/status_20260715_115141.md 2876 plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/auth_full_refresh_20260717_184517.json 16283 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260719_065045.out 654 solved,plaintext,private key,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260716_194120.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/github_repo_search_20260717_221544.out 4876 solved,plaintext,private key,sk.prf,Toeplitz,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260718_194924.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260719_192248.json 9255 octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_104359.out 7759 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/auth_full_refresh_20260717_214551.json 16287 solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260718_204916.out 1264 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/web_search_api_20260719_072120.out 939 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/external_candidate_triage_20260715_224103.out 6080 recrypt,plaintext,private key,mnemonic,sk.prf
+ hit evidence/twitter_public_search_refresh_20260715_220625.out 1223 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260716_171045.out 1237 solved,plaintext,private key,sk.prf,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/public_web_search_20260718_164914.out 1161 Rku,eval-key,recrypt,solved,plaintext,private key,sk.prf,Toeplitz,secret.ct
+ hit evidence/kubo_repo_triage_20260717_111335.out 549 plaintext,secret.ct
+ hit evidence/project_watchlist_triage_20260716_003752.out 3210 solved,private key,sk.prf,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit evidence/twitter_public_search_refresh_20260717_184559.out 574 solved,private key,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+## lamafab/octra-hfhe-lean
+clone_rc 0
+commits
+  1c5e4ff 2026-07-16T19:07:16Z docs: remove unnecessary highlights from main description
+  6dd7fe5 2026-07-16T19:07:16Z examples: update comment formatting
+  116819d 2026-07-16T19:07:16Z assets: add infographs and embed in README
+  2e80a72 2026-06-30T15:13:31Z docs/overview: name unformalized error weight assumption
+  1928c77 2026-06-30T14:26:06Z coding: update docs to reference distinct hyper-decoy consts
+  a95cefa 2026-06-30T14:24:36Z hfhe/hyper-decoy: introduce separate consts distinct from lpn consts
+  25a1c32 2026-06-30T08:34:49Z docs: add OVERVIEW.md
+  527391d 2026-06-30T08:34:49Z examples: init
+file_count 41 suspicious_names 2
+  Octra/Coding/LPN.lean 2204
+  Octra/HFHE/Recrypt.lean 7638
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 0, "plaintext": 59, "private key": 1, "recrypt": 83, "rk.sec": 0, "secret.ct": 0, "sk.prf": 0, "solved": 11}
+ hit OVERVIEW.md 14709 recrypt,plaintext
+ hit Octra.lean 907 recrypt
+ hit README.md 1605 plaintext
+ hit .devcontainer/Dockerfile 807 solved
+ hit Octra/Field127.lean 1491 plaintext
+ hit Examples/Cipher.lean 6012 recrypt,plaintext
+ hit Examples/Homomorphism.lean 7293 solved,plaintext
+ hit Examples/Octra.lean 5233 solved,plaintext
+ hit Examples/Field7.lean 1783 plaintext
+ hit Octra/Hypergraph/LogicGates.lean 14291 private key
+ hit Octra/HFHE/Repack.lean 6748 plaintext
+ hit Octra/HFHE/Cipher.lean 5892 recrypt
+ hit Octra/HFHE/Homomorphism.lean 11383 plaintext
+ hit Octra/HFHE/Gates.lean 6947 recrypt
+ hit Octra/HFHE/HyperDecoy.lean 14264 solved,plaintext
+ hit Octra/HFHE/Merge.lean 7390 recrypt,plaintext
+ hit Octra/HFHE/Octra.lean 4403 recrypt,plaintext
+ hit Octra/HFHE/Decoy.lean 2409 recrypt
+ hit Octra/HFHE/Recrypt.lean 7638 recrypt,plaintext
+ hit Octra/HFHE/Size.lean 3432 recrypt
+ hit Octra/HFHE/Correctness.lean 7576 solved,plaintext
+## Kubo-cmd/hfhe-v2-solver
+clone_rc 0
+commits
+  05f1687 2026-07-16T01:25:36-07:00 clean: remove tweet/email/smoke-ui-contrib cruft; your audit + solver tools only
+  0fed296 2026-07-15T01:41:26-07:00 Add audited-scope & provenance (live main pins, open PR #1-4 status); smoke-ui contrib snippet
+  3372bcf 2026-07-15T01:11:28-07:00 Exclude GitHub Actions workflow from this push (OAuth token lacks workflow scope); verify_audit.py runs standalone
+  6d4da21 2026-07-15T01:11:13-07:00 Public-ship prep: relativize local paths, fix badge/URL, strip hashtags, gitignore build artifacts, label external refs
+  9243e45 2026-07-15T00:31:55-07:00 Add Day 5-6 consolidation: algebraic + reduced-param negative-result writeup (traced to DAY4/DAY1/DAY7_8/FINAL_CONCLUSION)
+  6be5502 2026-07-13T23:28:40-07:00 Add Day 7-8 final probe report: all sk-centric + edge-case probes negative, release-build UBSan clean
+file_count 55 suspicious_names 7
+  prf_diff_probe.cpp 8831
+  prf_n20k.cpp 3232
+  DAY1_PRF_DIFF.md 1356
+  prf_impl_full.txt 5147
+  r2_attack.cpp 5965
+  prf_impl_index.txt 2522
+  public_artifacts/secret.ct 1963107
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 16, "eval-key": 0, "mnemonic": 1, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 4, "plaintext": 58, "private key": 4, "recrypt": 2, "rk.sec": 0, "secret.ct": 61, "sk.prf": 8, "solved": 1}
+ hit probe4_multi_ct.cpp 4441 plaintext
+ hit phase1_triage.cpp 12814 plaintext,secret.ct
+ hit prf_diff_probe.cpp 8831 Toeplitz
+ hit r2_check.cpp 2271 private key
+ hit inspect_ground_truth.py 6737 secret.ct
+ hit LIMITATIONS.md 1001 secret.ct
+ hit DAY1_PRF_DIFF.md 1356 Toeplitz,secret.ct
+ hit pc_weak.cpp 2860 plaintext,secret.ct
+ hit inspect_artifacts.py 6949 secret.ct
+ hit prf_impl_full.txt 5147 sk.prf
+ hit r2_attack.cpp 5965 secret.ct
+ hit README.md 3223 plaintext,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit vector_a.cpp 9971 secret.ct
+ hit research.cpp 6710 private key,sk.prf
+ hit vector_b.cpp 8765 secret.ct
+ hit prf_impl_index.txt 2522 Toeplitz
+ hit residual_all.cpp 8921 plaintext,sk.prf,secret.ct
+ hit verify_audit.py 13884 secret.ct
+ hit PHASE2_SOURCE_AUDIT.md 3047 solved,plaintext,sk.prf,secret.ct
+ hit impl_audit.cpp 16937 plaintext,secret.ct
+ hit THREAT_MODEL.md 1750 plaintext,secret.ct
+ hit GROUND_TRUTH.md 1298 secret.ct
+ hit public_audit.cpp 2102 plaintext,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit analyze.cpp 4381 secret.ct
+ hit FINAL_CONCLUSION.md 3281 recrypt,plaintext,secret.ct
+ hit probe3_wallet_kdf.cpp 3626 private key
+ hit test_rcom_closure.cpp 3831 plaintext,secret.ct
+ hit public_artifacts/README.md 1221 plaintext,private key,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit public_artifacts/manifest.json 750 plaintext,secret.ct
+ hit public_artifacts/SHA256SUMS 209 secret.ct
+ hit week_binary/DAY1_LOG.md 1523 recrypt,plaintext,secret.ct
+ hit week_binary/DAY5_6_CONSOLIDATION.md 3365 plaintext
+ hit week_binary/DAY3_LOG.md 2469 plaintext,mnemonic,secret.ct
+ hit week_binary/day1_deser_fuzz.cpp 3433 secret.ct
+ hit week_binary/DAY7_8_REPORT.md 6770 plaintext
+ hit week_binary/day2_structured_fuzz.cpp 8725 plaintext,secret.ct
+ hit week_binary/DAY2_LOG.md 1154 plaintext
+ hit week_binary/day1_san_harness.cpp 3681 secret.ct
+ hit week_binary/CONSOLIDATED_REPORT.md 5278 plaintext,secret.ct,octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+ hit week_binary/DAY4_LOG.md 2854 plaintext
+ hit public_artifacts/source/hfhe_bounty_artifact.cpp 17289 plaintext,secret.ct
+ hit public_artifacts/source/pvac_artifact_serialize.hpp 14434 sk.prf
+## Chimdalu-Ofoegbu/Decryptor
+clone_rc 0
+commits
+file_count 0 suspicious_names 0
+marker_counts {"HIT_prf": 0, "NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 0, "plaintext": 0, "private key": 0, "recrypt": 0, "rk.sec": 0, "secret.ct": 0, "sk.prf": 0, "solved": 0}
+## loperanger7/pvac-bench-harness
+clone_rc 0
+commits
+  b554a5e 2026-07-08T18:33:35-07:00 vendor octra-labs submodules at the pinned commits
+  ee45fd5 2026-07-08T18:33:10-07:00 pvac-hfhe benchmark harness
+file_count 29 suspicious_names 0
+marker_counts {"HIT_prf": 0, "NatKey": 45, "Rku": 1, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 0, "plaintext": 4, "private key": 0, "recrypt": 79, "rk.sec": 2, "secret.ct": 0, "sk.prf": 1, "solved": 0}
+ hit README.md 2512 recrypt
+ hit bench/bench_dprime_merkle_hash.cpp 13310 recrypt,plaintext
+ hit bench/bench_e_verified_chain.cpp 6324 recrypt
+ hit bench/bench_f_reset_proof.cpp 3032 recrypt
+ hit bench/bench_b_micro.cpp 6672 rk.sec,recrypt,sk.prf
+ hit bench/common.hpp 12120 recrypt
+ hit bench/bench_d_deep_chain.cpp 8900 Rku,recrypt
+ hit bench/bench_g_simd.cpp 5703 recrypt
+ hit bench/bench_c_reset_cost.cpp 7612 recrypt
+ hit vendor/fetch-pins.sh 814 recrypt
+ hit crates/pvac-native-sys/shim.cpp 6713 NatKey,recrypt
+ hit crates/pvac-native-sys/shim.h 3331 NatKey,recrypt
+ hit crates/mob-fhe/src/native.rs 5258 NatKey,recrypt
+ hit crates/mob-fhe/src/lib.rs 5208 recrypt
+ hit crates/mob-fhe/src/bin/slice_a2_ffi.rs 4728 recrypt
+ hit crates/pvac-native-sys/src/lib.rs 2798 NatKey,recrypt

@@ -1,0 +1,40 @@
+## query "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+total_count 1 incomplete False
+{"html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/README.md", "path": "README.md", "repo": "octra-labs/hfhe-challenge"}
+## query "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab"
+total_count 1 incomplete False
+{"html_url": "https://github.com/octra-labs/hfhe-challenge/blob/019380c97543620091409b0fbf73a8a773a9a0da/SHA256SUMS", "path": "SHA256SUMS", "repo": "octra-labs/hfhe-challenge"}
+## query "Rku" "hfhe" "octra"
+total_count 216 incomplete False
+{"html_url": "https://github.com/0xgetz/octrashield-dex/blob/5e6edf1ec2a6c846dea941426ec0b7db3bfc4012/README.md", "path": "README.md", "repo": "0xgetz/octrashield-dex"}
+{"html_url": "https://github.com/cirosantilli/expired-domain-names-by-day-2024/blob/7513ce8690e9c92eafb67a37ad07bf6023f4e420/03/04/16", "path": "03/04/16", "repo": "cirosantilli/expired-domain-names-by-day-2024"}
+{"html_url": "https://github.com/rf-peixoto/phishing_pot/blob/80685cbfe69a1f905707be92e144ba5b71f9ee37/email/sample-733.eml", "path": "email/sample-733.eml", "repo": "rf-peixoto/phishing_pot"}
+{"html_url": "https://github.com/allisson/python-cielo-webservice/blob/69ab59ae3eda3a8947a871f31206e64bf045d2a1/runtests.py", "path": "runtests.py", "repo": "allisson/python-cielo-webservice"}
+{"html_url": "https://github.com/EasyData/expired-cn-domains/blob/f3d98115e81cb5bb82e13c7d5ad19a6b9401a8e3/archives/2026-05-09/1todayDel.txt", "path": "archives/2026-05-09/1todayDel.txt", "repo": "EasyData/expired-cn-domains"}
+{"html_url": "https://github.com/RentonWEB3/bittensor-miner-vps/blob/56d4a908ae7daef596f5f017c01da861f7526423/normalized/twitter_20250823_1812.jsonl", "path": "normalized/twitter_20250823_1812.jsonl", "repo": "RentonWEB3/bittensor-miner-vps"}
+{"html_url": "https://github.com/jengler/bench_ds_projects/blob/5871b8fd7d57d29b387403f845713063c4c47abe/generated_tree/dir_42/dir_28/file_1.txt", "path": "generated_tree/dir_42/dir_28/file_1.txt", "repo": "jengler/bench_ds_projects"}
+{"html_url": "https://github.com/cirosantilli/expired-domain-names-by-day-2020/blob/b25dbd97f52600063d217ad953f7a0f8f8fab9a2/05/25/17", "path": "05/25/17", "repo": "cirosantilli/expired-domain-names-by-day-2020"}
+{"html_url": "https://github.com/Fexty12573/mhr-charm-item-editor/blob/760c5f25d63a5c8c46ca878f5ce31b1f3e180f88/RisePCItemEditor/Window.zh.resx", "path": "RisePCItemEditor/Window.zh.resx", "repo": "Fexty12573/mhr-charm-item-editor"}
+{"html_url": "https://github.com/colds-ky/dids/blob/97c517b09eb71872598ae7e1f06f215fd52a05df/o/oc.json", "path": "o/oc.json", "repo": "colds-ky/dids"}
+## query "rk.sec" "hfhe" "octra"
+total_count 2 incomplete False
+{"html_url": "https://github.com/AlexanderDaly/neurofhe-relay/blob/c42d68225934a3bfa46a4bdd7573d035ad907b96/prototype/lib/benchmark.mjs", "path": "prototype/lib/benchmark.mjs", "repo": "AlexanderDaly/neurofhe-relay"}
+{"html_url": "https://github.com/AlexanderDaly/neurofhe-relay/blob/c42d68225934a3bfa46a4bdd7573d035ad907b96/prototype/test/prototype.test.mjs", "path": "prototype/test/prototype.test.mjs", "repo": "AlexanderDaly/neurofhe-relay"}
+## query "NatKey" "hfhe" "octra"
+total_count 0 incomplete False
+## query "recrypt" "hfhe-challenge"
+total_count 0 incomplete False
+## query "sk.prf_k" "hfhe"
+total_count 12 incomplete False
+{"html_url": "https://github.com/octra-labs/webcli/blob/d1e4589717de07507c82574b133217127a230687/pvac/include/pvac/crypto/lpn.hpp", "path": "pvac/include/pvac/crypto/lpn.hpp", "repo": "octra-labs/webcli"}
+{"html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/examples/basic_usage.cpp", "path": "examples/basic_usage.cpp", "repo": "octra-labs/pvac_hfhe_cpp"}
+{"html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/guides/key-generation.mdx", "path": "guides/key-generation.mdx", "repo": "mintlify-atlas/docs-atlas-2fd87a37"}
+{"html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/examples/basic_usage.cpp", "path": "examples/basic_usage.cpp", "repo": "chimmykk/hfhe-poc"}
+{"html_url": "https://github.com/mintlify-atlas/docs-atlas-2fd87a37/blob/3837ee716fde18e336ea55a5b221c7eeaa146dd6/concepts/security.mdx", "path": "concepts/security.mdx", "repo": "mintlify-atlas/docs-atlas-2fd87a37"}
+{"html_url": "https://github.com/chimmykk/hfhe-poc/blob/934d8c246f440e01e90d4e9678538572834d7ae8/include/pvac/crypto/lpn.hpp", "path": "include/pvac/crypto/lpn.hpp", "repo": "chimmykk/hfhe-poc"}
+{"html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/blob/071b0e909c119de815e284b347c4bd979cb59ef3/include/pvac/crypto/lpn.hpp", "path": "include/pvac/crypto/lpn.hpp", "repo": "octra-labs/pvac_hfhe_cpp"}
+{"html_url": "https://github.com/androolloyd/octravpn/blob/e20f3f942c56722d33526b9cd2adc64c9fdf9026/pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp", "path": "pvac-sidecar/vendor/pvac/include/pvac/crypto/lpn.hpp", "repo": "androolloyd/octravpn"}
+{"html_url": "https://github.com/Xyntera/Octra-Wallet/blob/9fa8a5c40ebf54bd19775388c31bbcb3b76a3fcb/native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp", "path": "native/vendor/webcli/pvac/include/pvac/crypto/lpn.hpp", "repo": "Xyntera/Octra-Wallet"}
+{"html_url": "https://github.com/Xyntera/octra-ide/blob/7bec6dc777591a4235c07363597fb076f2cde0a4/pvac/include/pvac/crypto/lpn.hpp", "path": "pvac/include/pvac/crypto/lpn.hpp", "repo": "Xyntera/octra-ide"}
+## query "secret.ct" "octra" "solved"
+total_count 0 incomplete False

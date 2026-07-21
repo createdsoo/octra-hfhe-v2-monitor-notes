@@ -1,0 +1,133 @@
+{
+  "forks_pushed_after_upstream": [
+    {
+      "created_at": "2026-07-10T16:37:04Z",
+      "full_name": "ifeoluwaaj/hfhe-challenge",
+      "pushed_at": "2026-07-12T06:03:19Z",
+      "updated_at": "2026-07-10T16:37:04Z"
+    },
+    {
+      "created_at": "2026-07-10T09:03:23Z",
+      "full_name": "Eienel/hfhe-challenge-eienel",
+      "pushed_at": "2026-07-14T09:17:06Z",
+      "updated_at": "2026-07-14T09:17:16Z"
+    },
+    {
+      "created_at": "2026-07-10T00:52:34Z",
+      "full_name": "Wezix/hfhe-challenge-test",
+      "pushed_at": "2026-07-20T21:03:24Z",
+      "updated_at": "2026-07-10T00:52:35Z"
+    }
+  ],
+  "forks_total_returned": 33,
+  "issue_records_total": 4,
+  "latest_forks": [
+    {
+      "created_at": "2026-07-16T16:43:10Z",
+      "full_name": "Vibibiys/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-16T16:44:05Z"
+    },
+    {
+      "created_at": "2026-07-16T09:37:53Z",
+      "full_name": "Prot420/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-16T09:37:53Z"
+    },
+    {
+      "created_at": "2026-07-15T11:52:21Z",
+      "full_name": "0xTaaa/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-15T11:52:21Z"
+    },
+    {
+      "created_at": "2026-07-15T11:30:50Z",
+      "full_name": "zhaoge7786/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-15T11:30:50Z"
+    },
+    {
+      "created_at": "2026-07-15T11:17:02Z",
+      "full_name": "erlanggada/hfhe-challenge",
+      "pushed_at": "2026-07-11T08:49:01Z",
+      "updated_at": "2026-07-15T11:17:02Z"
+    },
+    {
+      "created_at": "2026-07-11T07:41:01Z",
+      "full_name": "SNAKBILLION/hfhe-challenge",
+      "pushed_at": "2026-07-11T03:35:26Z",
+      "updated_at": "2026-07-11T07:41:01Z"
+    },
+    {
+      "created_at": "2026-07-11T07:32:56Z",
+      "full_name": "vansham/hfhe-challenge",
+      "pushed_at": "2026-07-11T03:35:26Z",
+      "updated_at": "2026-07-11T07:32:57Z"
+    },
+    {
+      "created_at": "2026-07-10T16:49:14Z",
+      "full_name": "akidry/hfhe-challenge",
+      "pushed_at": "2026-07-09T21:49:59Z",
+      "updated_at": "2026-07-10T16:49:14Z"
+    },
+    {
+      "created_at": "2026-07-10T16:37:04Z",
+      "full_name": "ifeoluwaaj/hfhe-challenge",
+      "pushed_at": "2026-07-12T06:03:19Z",
+      "updated_at": "2026-07-10T16:37:04Z"
+    },
+    {
+      "created_at": "2026-07-10T16:31:08Z",
+      "full_name": "JH-321/hfhe-challenge-1",
+      "pushed_at": "2026-07-09T21:49:59Z",
+      "updated_at": "2026-07-10T16:31:08Z"
+    },
+    {
+      "created_at": "2026-07-10T15:32:53Z",
+      "full_name": "k3llgh/hfhe-challenge",
+      "pushed_at": "2026-07-09T21:49:59Z",
+      "updated_at": "2026-07-10T15:32:53Z"
+    },
+    {
+      "created_at": "2026-07-10T12:22:41Z",
+      "full_name": "emma31-dev/hfhe-challenge",
+      "pushed_at": "2026-07-09T21:49:59Z",
+      "updated_at": "2026-07-10T12:22:42Z"
+    },
+    {
+      "created_at": "2026-07-10T10:12:19Z",
+      "full_name": "nxpath/hfhe-challenge",
+      "pushed_at": "2026-07-10T17:46:22Z",
+      "updated_at": "2026-07-10T10:18:16Z"
+    },
+    {
+      "created_at": "2026-07-10T09:03:23Z",
+      "full_name": "Eienel/hfhe-challenge-eienel",
+      "pushed_at": "2026-07-14T09:17:06Z",
+      "updated_at": "2026-07-14T09:17:16Z"
+    },
+    {
+      "created_at": "2026-07-10T08:23:04Z",
+      "full_name": "TonyLegend-77/hfhe-challenge",
+      "pushed_at": "2026-07-10T08:23:41Z",
+      "updated_at": "2026-07-10T08:23:04Z"
+    }
+  ],
+  "pull_numbers": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "pulls_total": 4,
+  "repo": {
+    "forks_count": 33,
+    "full_name": "octra-labs/hfhe-challenge",
+    "open_issues_count": 2,
+    "pushed_at": "2026-07-11T08:49:01Z",
+    "stargazers_count": 29,
+    "updated_at": "2026-07-21T16:46:31Z"
+  },
+  "standalone_issue_numbers": [],
+  "standalone_issues_total": 0
+}

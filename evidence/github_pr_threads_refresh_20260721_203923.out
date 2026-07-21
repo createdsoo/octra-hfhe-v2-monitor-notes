@@ -1,0 +1,54 @@
+## PR 1
+{"created_at": "2026-07-10T08:25:43Z", "head": "TonyLegend-77/hfhe-challenge", "head_sha": "832890554fff9794871ebd462cf7b917e6222eb5", "mergeable_state": "clean", "merged": false, "number": 1, "state": "open", "title": "Rename secret.ct to Love.ct", "updated_at": "2026-07-10T08:25:43Z"}
+body_len 0 body_flags []
+files 1
+{"additions": 0, "changes": 0, "deletions": 0, "filename": "Love.ct", "status": "renamed"}
+comments 0 reviews 0 review_comments 0
+## PR 2
+{"created_at": "2026-07-10T10:08:33Z", "head": "Eienel/hfhe-challenge-eienel", "head_sha": "44886d962d8df2dc0849cc55d476cb571561e58d", "mergeable_state": "clean", "merged": false, "number": 2, "state": "closed", "title": "Claude/hfhe challenge v2 8bntzl", "updated_at": "2026-07-10T10:08:58Z"}
+body_len 0 body_flags []
+files 10
+{"additions": 156, "changes": 156, "deletions": 0, "filename": "ANALYSIS.md", "status": "added"}
+{"additions": 63, "changes": 63, "deletions": 0, "filename": "LPN_ANALYSIS.md", "status": "added"}
+{"additions": 0, "changes": 0, "deletions": 0, "filename": "docs/.nojekyll", "status": "added"}
+{"additions": 113, "changes": 113, "deletions": 0, "filename": "docs/index.html", "status": "added"}
+{"additions": 199, "changes": 199, "deletions": 0, "filename": "report/index.html", "status": "added"}
+{"additions": 47, "changes": 47, "deletions": 0, "filename": "tools/distinguish.cpp", "status": "added"}
+{"additions": 45, "changes": 45, "deletions": 0, "filename": "tools/lpn_demo.py", "status": "added"}
+{"additions": 30, "changes": 30, "deletions": 0, "filename": "tools/lpn_estimate.py", "status": "added"}
+{"additions": 45, "changes": 45, "deletions": 0, "filename": "tools/probe.cpp", "status": "added"}
+{"additions": 23, "changes": 23, "deletions": 0, "filename": "tools/probe_seeds.cpp", "status": "added"}
+comments 0 reviews 0 review_comments 0
+## PR 3
+{"created_at": "2026-07-10T16:38:06Z", "head": "ifeoluwaaj/hfhe-challenge", "head_sha": "ffed46e744bb17871120fbc7e27102c92896567f", "mergeable_state": "clean", "merged": false, "number": 3, "state": "open", "title": "HFHE v2 cryptanalysis: security analysis and tools", "updated_at": "2026-07-12T06:03:32Z"}
+body_len 1695 body_flags ['plaintext']
+body_preview ## HFHE v2 Cryptanalysis — Exhaustive Attack Report  **Status: UNDEFEATED — No path to plaintext recovery found with current public techniques.**  ### Summary  40+ attack tests across every known category. Found & fixed critical S-box CNF bug. All LPN approaches hit 50% wall. Independent smoke-ui assessment also negative. Deep math research confirms no exploitable structure.  ### LPN(4096, 1/8) — 15+ approaches, ALL negative  GE, bit-flipping, majority vote, correlation, SA, BKW, BKZ, SAT, XL, I
+files 7
+{"additions": 261, "changes": 261, "deletions": 0, "filename": "ANALYSIS.md", "status": "added"}
+{"additions": 138, "changes": 138, "deletions": 0, "filename": "LPN_ANALYSIS.md", "status": "added"}
+{"additions": 70, "changes": 70, "deletions": 0, "filename": "LPN_SAMPLE_ANALYSIS.md", "status": "added"}
+{"additions": 108, "changes": 108, "deletions": 0, "filename": "REPORT.md", "status": "added"}
+{"additions": 116, "changes": 116, "deletions": 0, "filename": "tools/cross_layer.cpp", "status": "added"}
+{"additions": 54, "changes": 54, "deletions": 0, "filename": "tools/lpn_estimate.py", "status": "added"}
+{"additions": 113, "changes": 113, "deletions": 0, "filename": "tools/probe.cpp", "status": "added"}
+comments 0 reviews 0 review_comments 0
+## PR 4
+{"created_at": "2026-07-10T17:46:08Z", "head": "nxpath/hfhe-challenge", "head_sha": "3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8", "mergeable_state": "clean", "merged": false, "number": 4, "state": "closed", "title": "Enhance/robust tools", "updated_at": "2026-07-10T17:46:22Z"}
+body_len 0 body_flags []
+files 15
+{"additions": 128, "changes": 128, "deletions": 0, "filename": "BUILD.md", "status": "added"}
+{"additions": 44, "changes": 44, "deletions": 0, "filename": "CMakeLists.txt", "status": "added"}
+{"additions": 206, "changes": 206, "deletions": 0, "filename": "README_RECOVERY.md", "status": "added"}
+{"additions": 188, "changes": 188, "deletions": 0, "filename": "source/common/analysis_utils.hpp", "status": "added"}
+{"additions": 187, "changes": 187, "deletions": 0, "filename": "source/common/bundle_deserializer.hpp", "status": "added"}
+{"additions": 145, "changes": 145, "deletions": 0, "filename": "source/common/file_utils.hpp", "status": "added"}
+{"additions": 94, "changes": 94, "deletions": 0, "filename": "source/common/logger.hpp", "status": "added"}
+{"additions": 150, "changes": 150, "deletions": 0, "filename": "tools/attack_pubkey_analysis.cpp", "status": "added"}
+{"additions": 204, "changes": 204, "deletions": 0, "filename": "tools/attack_pubkey_analysis_v2.cpp", "status": "added"}
+{"additions": 161, "changes": 161, "deletions": 0, "filename": "tools/attack_syndrome_decoder.cpp", "status": "added"}
+{"additions": 175, "changes": 175, "deletions": 0, "filename": "tools/challenge_analyzer.cpp", "status": "added"}
+{"additions": 226, "changes": 226, "deletions": 0, "filename": "tools/challenge_analyzer_v2.cpp", "status": "added"}
+{"additions": 135, "changes": 135, "deletions": 0, "filename": "tools/inspect_artifacts.cpp", "status": "added"}
+{"additions": 174, "changes": 174, "deletions": 0, "filename": "tools/plaintext_recovery.cpp", "status": "added"}
+{"additions": 180, "changes": 180, "deletions": 0, "filename": "tools/plaintext_recovery_v2.cpp", "status": "added"}
+comments 0 reviews 0 review_comments 0

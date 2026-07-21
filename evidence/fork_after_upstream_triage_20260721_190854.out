@@ -1,0 +1,67 @@
+## ifeoluwaaj/hfhe-challenge
+commits
+  0d08e96 2026-07-09T22:49:58+01:00 Update README.md
+  899d93a 2026-07-09T22:32:30+01:00 Update README.md
+  547271b 2026-07-09T21:29:55Z active
+  841504a 2026-07-09T21:17:19Z v2 final
+  25afde5 2026-07-09T21:10:09Z v2 final
+  88a72b7 2026-07-09T21:08:01Z v2 final
+  e4645c9 2026-07-09T20:33:45Z publish bounty challenge v2
+  e2d5703 2026-07-09T18:53:33Z update checksums
+file_count 9 suspicious_names 1
+  secret.ct 1963107
+marker_counts {"NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "plaintext": 10, "private key": 1, "recrypt": 0, "rk.sec": 0, "sk.prf": 2, "solved": 0}
+hit_files
+  README.md 1221 plaintext,private key
+  manifest.json 750 plaintext
+  source/hfhe_bounty_artifact.cpp 17289 plaintext
+  source/pvac_artifact_serialize.hpp 14434 sk.prf
+## Eienel/hfhe-challenge-eienel
+commits
+  efb2417 2026-07-14T09:17:05Z Fold in 019380c clarification, constant-time audit, second corroboration
+  c2897e6 2026-07-11T12:34:46Z Update GitHub Pages for the d9d29d5 LPN sample drop
+  cb1391a 2026-07-11T12:30:11Z Commit-diff audit of hardening wave: no regression in plaintext-gating code
+  21e0b9c 2026-07-11T12:26:25Z Audit full wire surface for prf_k / R leak: none found
+  4c91aeb 2026-07-11T11:16:14Z Reassess LPN angle after d9d29d5 sample drop
+  91eaeba 2026-07-10T22:03:39Z Expand writeup: developer attack suite, anomaly scan, seed hypothesis testing, fuzzing, corroboration
+  b7c540f 2026-07-10T22:01:04Z Add sanitizer deserialization fuzz (6000 mutations, 0 crashes, memory-safe)
+  80317a3 2026-07-10T10:53:15Z Add seed-hypothesis testers (deterministic, v1-relation, brainwallet); scanner validated against v1 ground truth
+file_count 31 suspicious_names 1
+  secret.ct 1963107
+marker_counts {"NatKey": 0, "Rku": 0, "Toeplitz": 11, "eval-key": 0, "mnemonic": 47, "plaintext": 41, "private key": 4, "recrypt": 6, "rk.sec": 0, "sk.prf": 16, "solved": 6}
+hit_files
+  ANALYSIS.md 11117 recrypt,solved,plaintext,private key,mnemonic,sk.prf,Toeplitz
+  README.md 1221 plaintext,private key
+  manifest.json 750 plaintext
+  LPN_ANALYSIS.md 8867 recrypt,plaintext,sk.prf,Toeplitz
+  tools/brain_test.py 2129 mnemonic
+  tools/theory_test.py 2779 mnemonic
+  tools/octra_check.py 1395 mnemonic
+  tools/distinguish.cpp 1885 plaintext
+  tools/v1rel.py 2007 mnemonic
+  tools/flip_weak.py 1121 mnemonic
+  tools/lpn_demo.py 1902 sk.prf,Toeplitz
+  tools/lpn_load.py 1849 sk.prf
+  tools/lpn_estimate.py 1504 Toeplitz
+  source/hfhe_bounty_artifact.cpp 17289 plaintext
+  source/pvac_artifact_serialize.hpp 14434 sk.prf
+  docs/index.html 19184 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz
+  report/index.html 10683 solved,plaintext,private key,mnemonic,sk.prf,Toeplitz
+## Wezix/hfhe-challenge-test
+commits
+  0d08e96 2026-07-09T22:49:58+01:00 Update README.md
+  899d93a 2026-07-09T22:32:30+01:00 Update README.md
+  547271b 2026-07-09T21:29:55Z active
+  841504a 2026-07-09T21:17:19Z v2 final
+  25afde5 2026-07-09T21:10:09Z v2 final
+  88a72b7 2026-07-09T21:08:01Z v2 final
+  e4645c9 2026-07-09T20:33:45Z publish bounty challenge v2
+  e2d5703 2026-07-09T18:53:33Z update checksums
+file_count 9 suspicious_names 1
+  secret.ct 1963107
+marker_counts {"NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "mnemonic": 0, "plaintext": 10, "private key": 1, "recrypt": 0, "rk.sec": 0, "sk.prf": 2, "solved": 0}
+hit_files
+  README.md 1221 plaintext,private key
+  manifest.json 750 plaintext
+  source/hfhe_bounty_artifact.cpp 17289 plaintext
+  source/pvac_artifact_serialize.hpp 14434 sk.prf

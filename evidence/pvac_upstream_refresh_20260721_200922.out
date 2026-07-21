@@ -1,0 +1,18 @@
+## repo octra-labs/pvac_hfhe_cpp
+{"forks_count": 61, "full_name": "octra-labs/pvac_hfhe_cpp", "open_issues_count": 5, "pushed_at": "2026-07-09T18:30:07Z", "stargazers_count": 60, "updated_at": "2026-07-16T14:08:31Z"}
+commits
+{"date": "2026-07-09T18:29:59Z", "msg": "public matrix sampling", "sha": "071b0e909c11"}
+{"date": "2026-07-09T17:48:01Z", "msg": "fix rcomless fold identity", "sha": "dfa3957a290a"}
+{"date": "2026-07-09T16:46:36Z", "msg": " native reset binding", "sha": "b61d7994b1c8"}
+{"date": "2026-07-09T16:07:52Z", "msg": "fix keygen root exponent", "sha": "755025ab7b40"}
+{"date": "2026-07-09T14:36:13Z", "msg": "public encoding tests", "sha": "8fd2a55953e0"}
+releases []
+## repo octra-labs/webcli
+{"forks_count": 112, "full_name": "octra-labs/webcli", "open_issues_count": 18, "pushed_at": "2026-06-09T22:40:50Z", "stargazers_count": 98, "updated_at": "2026-07-16T14:09:09Z"}
+commits
+{"date": "2026-06-09T22:40:40Z", "msg": "bridge fix", "sha": "d1e4589717de"}
+{"date": "2026-06-09T20:05:39Z", "msg": "mini security updates", "sha": "c743b0bb9031"}
+{"date": "2026-06-08T11:14:55Z", "msg": "rpc fix", "sha": "8182d9792001"}
+{"date": "2026-06-08T00:51:39Z", "msg": "mini-security improvements", "sha": "a6673113c63d"}
+{"date": "2026-05-23T19:21:25Z", "msg": "minor updates in circles", "sha": "27748c886f8a"}
+releases []

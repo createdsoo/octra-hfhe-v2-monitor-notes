@@ -1,0 +1,105 @@
+clone_rc 0
+make_rc 0
+CMD planted --bits 12 --plant 0x345 --threads 2
+rc 0
+planted_ok=1
+free_word=2 bits=12 plant=837
+found=1
+KEY_OUTPUT_REDACTED
+tried=839 seconds=0.000737125 rate=1.13821e+06/s
+CMD live --free-word 0 --bits 0 --threads 2
+rc 1
+mode=live
+free_word=0 bits=0
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=1 seconds=0.000042 rate=24072/s
+CMD sweep --bits 12 --threads 2
+rc 1
+=== sweep free_word=0 bits=12 ===
+mode=live
+free_word=0 bits=12
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=4096 seconds=0.001569 rate=2610996/s
+=== sweep free_word=1 bits=12 ===
+mode=live
+free_word=1 bits=12
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=4096 seconds=0.001536 rate=2666161/s
+=== sweep free_word=2 bits=12 ===
+mode=live
+free_word=2 bits=12
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=4096 seconds=0.001542 rate=2655787/s
+=== sweep free_word=3 bits=12 ===
+mode=live
+free_word=3 bits=12
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=4096 seconds=0.001522 rate=2691637/s
+=== sweep all-zero ===
+mode=live
+free_word=0 bits=0
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=1 seconds=0.000051 rate=19433/s
+sweep_hits=0
+CMD pair-sweep --bits 8 --threads 2
+rc 1
+=== pair-sweep words=0,1 bits_each=8 ===
+mode=pair-live
+words=0,1 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.024075 rate=2722112/s
+=== pair-sweep words=0,2 bits_each=8 ===
+mode=pair-live
+words=0,2 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.024000 rate=2730624/s
+=== pair-sweep words=0,3 bits_each=8 ===
+mode=pair-live
+words=0,3 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.024172 rate=2711236/s
+=== pair-sweep words=1,2 bits_each=8 ===
+mode=pair-live
+words=1,2 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.024017 rate=2728738/s
+=== pair-sweep words=1,3 bits_each=8 ===
+mode=pair-live
+words=1,3 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.024020 rate=2728350/s
+=== pair-sweep words=2,3 bits_each=8 ===
+mode=pair-live
+words=2,3 bits_each=8 total_bits=16
+found=0
+tried=65536 seconds=0.023977 rate=2733314/s
+pair_sweep_hits=0
+CMD high-sweep --bits 8 --threads 2
+rc 1
+=== high-sweep free_word=0 high_bits=8 ===
+mode=high-live
+free_word=0 high_bits=8 shift=56
+found=0
+tried=256 seconds=0.000134 rate=1904521/s
+=== high-sweep free_word=1 high_bits=8 ===
+mode=high-live
+free_word=1 high_bits=8 shift=56
+found=0
+tried=256 seconds=0.000140 rate=1832944/s
+=== high-sweep free_word=2 high_bits=8 ===
+mode=high-live
+free_word=2 high_bits=8 shift=56
+found=0
+tried=256 seconds=0.000140 rate=1833482/s
+=== high-sweep free_word=3 high_bits=8 ===
+mode=high-live
+free_word=3 high_bits=8 shift=56
+found=0
+tried=256 seconds=0.000136 rate=1881191/s
+high_sweep_hits=0

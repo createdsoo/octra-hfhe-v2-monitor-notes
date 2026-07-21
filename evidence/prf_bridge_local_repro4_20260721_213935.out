@@ -1,0 +1,74 @@
+clone_rc 0
+make_rc 0
+c++ -std=c++17 -O3 -mcpu=apple-m1+crypto -Wall -Wextra -pthread -I/Users/koala/hfhe_challenge_v2/pvac_hfhe_cpp/include -I../../source -o prf_bridge prf_bridge.cpp
+c++ -std=c++17 -O3 -mcpu=apple-m1+crypto -Wall -Wextra -pthread -I/Users/koala/hfhe_challenge_v2/pvac_hfhe_cpp/include -I../../source -o partial_word_scan partial_word_scan.cpp
+prf_bridge.cpp:154:13: warning: unused function 'prf_to_hex' [-Wunused-function]
+  154 | std::string prf_to_hex(const std::array<uint64_t, 4>& prf_k) {
+      |             ^~~~~~~~~~
+1 warning generated.
+partial_word_scan.cpp:670:5: warning: unused function 'parse_threads' [-Wunused-function]
+  670 | int parse_threads(int argc, char** argv, int& i, int default_t) {
+      |     ^~~~~~~~~~~~~
+1 warning generated.
+
+CMD planted ['--free-word', '2', '--bits', '12', '--plant', '0x345']
+rc 0
+planted_ok=1
+free_word=2 bits=12 plant=837
+found=1
+KEY_OUTPUT_REDACTED
+tried=841 seconds=0.000464 rate=1.8125e+06/s
+CMD live ['/Users/koala/hfhe_challenge_v2/pk.bin', '/Users/koala/hfhe_challenge_v2/upstream_d9d29d5_files/lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', '0', '0', '2']
+rc 1
+error=bad arg 0
+CMD sweep ['/Users/koala/hfhe_challenge_v2/pk.bin', '/Users/koala/hfhe_challenge_v2/upstream_d9d29d5_files/lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl', '8', '2']
+rc 1
+error=bad arg 8
+HELP_CMD ['./partial_word_scan']
+rc 2
+usage:
+  partial_word_scan planted --free-word W --bits B [--plant V] [--threads T]
+  partial_word_scan live pk.bin sample.jsonl --free-word W --bits B [--threads T]
+  partial_word_scan sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan pair-planted --words A,B --bits B [--plant-a V] [--plant-b V] [--threads T]
+  partial_word_scan pair-live pk.bin sample.jsonl --words A,B --bits B [--threads T]
+  partial_word_scan pair-sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan high-sweep pk.bin sample.jsonl --bits B [--threads T]
+
+sweep:      3 words=0, 1 free word low B bits (cap B<=40)
+pair-sweep: 2 words=0, 2 free words low B bits each (cap B<=18; space 6*2^(2B))
+high-sweep: 3 words=0, 1 free word HIGH B bits (value<<64-B; cap B<=40)
+Note: sweep --bits 16 is redundant after a --bits 32 miss on the same family.
+
+HELP_CMD ['./partial_word_scan', 'live', '--help']
+rc 2
+usage:
+  partial_word_scan planted --free-word W --bits B [--plant V] [--threads T]
+  partial_word_scan live pk.bin sample.jsonl --free-word W --bits B [--threads T]
+  partial_word_scan sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan pair-planted --words A,B --bits B [--plant-a V] [--plant-b V] [--threads T]
+  partial_word_scan pair-live pk.bin sample.jsonl --words A,B --bits B [--threads T]
+  partial_word_scan pair-sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan high-sweep pk.bin sample.jsonl --bits B [--threads T]
+
+sweep:      3 words=0, 1 free word low B bits (cap B<=40)
+pair-sweep: 2 words=0, 2 free words low B bits each (cap B<=18; space 6*2^(2B))
+high-sweep: 3 words=0, 1 free word HIGH B bits (value<<64-B; cap B<=40)
+Note: sweep --bits 16 is redundant after a --bits 32 miss on the same family.
+
+HELP_CMD ['./partial_word_scan', 'sweep', '--help']
+rc 2
+usage:
+  partial_word_scan planted --free-word W --bits B [--plant V] [--threads T]
+  partial_word_scan live pk.bin sample.jsonl --free-word W --bits B [--threads T]
+  partial_word_scan sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan pair-planted --words A,B --bits B [--plant-a V] [--plant-b V] [--threads T]
+  partial_word_scan pair-live pk.bin sample.jsonl --words A,B --bits B [--threads T]
+  partial_word_scan pair-sweep pk.bin sample.jsonl --bits B [--threads T]
+  partial_word_scan high-sweep pk.bin sample.jsonl --bits B [--threads T]
+
+sweep:      3 words=0, 1 free word low B bits (cap B<=40)
+pair-sweep: 2 words=0, 2 free words low B bits each (cap B<=18; space 6*2^(2B))
+high-sweep: 3 words=0, 1 free word HIGH B bits (value<<64-B; cap B<=40)
+Note: sweep --bits 16 is redundant after a --bits 32 miss on the same family.
+

@@ -1,0 +1,153 @@
+{
+  "commits": [
+    {
+      "date": "2026-07-11T08:48:57Z",
+      "message": "clarify lpn samples",
+      "sha": "019380c97543"
+    },
+    {
+      "date": "2026-07-11T03:32:27Z",
+      "message": "add lpn samples",
+      "sha": "d9d29d505e28"
+    },
+    {
+      "date": "2026-07-09T21:49:58Z",
+      "message": "Update README.md",
+      "sha": "0d08e9622921"
+    },
+    {
+      "date": "2026-07-09T21:32:30Z",
+      "message": "Update README.md",
+      "sha": "899d93ad0f2f"
+    },
+    {
+      "date": "2026-07-09T21:29:55Z",
+      "message": "active",
+      "sha": "547271bcefb7"
+    },
+    {
+      "date": "2026-07-09T21:17:19Z",
+      "message": "v2 final",
+      "sha": "841504ab5158"
+    },
+    {
+      "date": "2026-07-09T21:10:09Z",
+      "message": "v2 final",
+      "sha": "25afde5a8287"
+    },
+    {
+      "date": "2026-07-09T21:08:01Z",
+      "message": "v2 final",
+      "sha": "88a72b703f4c"
+    },
+    {
+      "date": "2026-07-09T20:33:45Z",
+      "message": "publish bounty challenge v2",
+      "sha": "e4645c977125"
+    },
+    {
+      "date": "2026-07-09T18:53:33Z",
+      "message": "update checksums",
+      "sha": "e2d57039a854"
+    }
+  ],
+  "events": [
+    {
+      "actor": "Vibibiys",
+      "created_at": "2026-07-16T16:43:10Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "Prot420",
+      "created_at": "2026-07-16T09:37:53Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "0xTaaa",
+      "created_at": "2026-07-15T11:52:21Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "zhaoge7786",
+      "created_at": "2026-07-15T11:30:50Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "erlanggada",
+      "created_at": "2026-07-15T11:17:02Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "octralex",
+      "created_at": "2026-07-13T12:38:07Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "talented634",
+      "created_at": "2026-07-12T00:33:31Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "asbryx",
+      "created_at": "2026-07-11T22:53:15Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "AminMstlih",
+      "created_at": "2026-07-11T15:38:00Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "lambda0xE",
+      "created_at": "2026-07-11T08:49:02Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "PushEvent"
+    },
+    {
+      "actor": "brighton-ifaya",
+      "created_at": "2026-07-11T08:08:00Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "SNAKBILLION",
+      "created_at": "2026-07-11T07:41:01Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "vansham",
+      "created_at": "2026-07-11T07:32:56Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "ForkEvent"
+    },
+    {
+      "actor": "ryyos",
+      "created_at": "2026-07-11T06:13:59Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "WatchEvent"
+    },
+    {
+      "actor": "lambda0xE",
+      "created_at": "2026-07-11T03:35:27Z",
+      "repo": "octra-labs/hfhe-challenge",
+      "type": "PushEvent"
+    }
+  ],
+  "releases": [
+    {
+      "name": "HFHE challenge v2",
+      "published_at": "2026-07-07T09:12:22Z",
+      "tag": "v2_fix"
+    }
+  ]
+}

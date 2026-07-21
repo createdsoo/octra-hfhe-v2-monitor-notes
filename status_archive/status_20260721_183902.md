@@ -1,32 +1,33 @@
-# Octra HFHE v2 public signal sweep 20260721_183902 UTC
+# Octra HFHE v2 public signal sweep 20260721_184135 UTC
 
 ## Current result
 - Plaintext/private key: **not recovered**.
-- Chain refresh at 20260721_183902 UTC: balance `500001.000001`, nonce `0`, `has_public_key=False`, `tx_count=5`.
-- Official GitHub / forks / PR/issues / X / public-web refreshed again.
+- Chain refresh at 20260721_184135 UTC: balance `500001.000001`, nonce `0`, `has_public_key=False`, `tx_count=5`.
+- Official GitHub / forks / PR/issues / events / X-DDG / public-web refreshed again.
 
 ## Refresh result
 - Target wallet state unchanged: no public key registered, same five recent transactions.
-- Official GitHub authenticated API refresh: `forks=33`, `pulls=4`, `issues=4`, `repo_pushed_at=2026-07-11T08:49:01Z`, `repo_updated_at=2026-07-21T16:46:31Z`, `stargazers=29`.
+- Official GitHub authenticated API refresh: `forks=33`, `pulls=4`, `repo_pushed_at=2026-07-11T08:49:01Z`, `repo_updated_at=2026-07-21T16:46:31Z`, `stargazers=29`. GitHub `open_issues_count=2` is accounted for by open PRs; current issue endpoint shows `0` standalone issues and `4` PR-backed issue records total.
 - GitHub events/commits/releases still show no new push, commit, PR, issue, fork, or release after the prior metadata-only `updated_at` change. Latest commit remains `019380c97543` (`clarify lpn samples`, 2026-07-11T08:48:57Z); latest release remains `v2_fix` from 2026-07-07.
-- X/DDG refresh resurfaced `12` URLs. This set includes already-triaged octralex challenge/relaunch posts and iamknownasfesal v1-method material; no target-specific v2 plaintext/key/recrypt material was exposed.
+- X/DDG refresh produced no unique candidate X URLs in this cycle.
 - Refined public-web scan result unchanged: `blob_hits=113`; marker counts `Rku=0`, `rk.sec=0`, `NatKey=0`, `eval-key=0`, `recrypt bundle=0`, `solved=0`. Generic `private key=10` and `mnemonic=19` strings remain source/README/v1 seed material, not target secrets.
 - Previously resurfaced lambda0xE LPN-samples/refinement material remains already-triaged public context only; no sk.prf_k/R2/R3/Toeplitz/plaintext/wallet-key material.
 - Native-layer and LPN conclusions remain unchanged: no native `ru` source layers exposed; no direct secret candidate from the fast probe.
 
 ## New exclusions
 - GitHub metadata-only change remains non-actionable after event/commit/release recheck.
-- Resurfaced octralex/fesal X URLs are known prior context: octralex is challenge/relaunch commentary; fesal route is v1/different wallet and removed by v2.
+- GitHub issue-count ambiguity clarified: issue records #1-#4 are PR-backed; no standalone issue leak surfaced.
 - No new target-specific `Rku`, `rk.sec`, `NatKey`, `eval-key`, or recrypt/native bundle discovered.
 - No new actionable X/web leak appeared this cycle.
 - Authenticated GitHub check continues to work with sanitized token parsing; no secret material printed or published.
 
 ## Evidence paths
-- `chain_refresh_20260721_183902.out`
-- `github_light_refresh_20260721_183902.out`
-- `github_events_refresh_20260721_183902.out`
-- `twitter_public_search_refresh_20260721_183902.out`
-- `public_web_search_20260721_183902.out`
+- `chain_refresh_20260721_184135.out`
+- `github_light_refresh_20260721_184135.out`
+- `github_events_refresh_20260721_184135.out`
+- `github_issues_detail_20260721_184135.out`
+- `twitter_public_search_refresh_20260721_184135.out`
+- `public_web_search_20260721_184135.out`
 - `x_iamknownasfesal_triage_20260714_012920.out`
 - `xtriage_2075870093708235148_20260714_234108.out`
 - `x_status_octralex_2074423534462362042.txt`

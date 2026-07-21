@@ -1,0 +1,166 @@
+## file research/lpn_prf_bridge/README.md
+size 5432 sha 458197ad4753
+flags ['candidate', 'result']
+3: ## Result
+5: Given OCTRA's published R1 LPN samples, **recovering the 256-bit `prf_k` is sufficient to recover the LPN secret `S` and reconstruct every layer mask `R`**. Conversely, recovering `S` alone is not enough.
+17: | candidate `prf_k` | Exact check: regenerate AES-CTR row 0 and compare to published `a` |
+20: | `S` only | No AES key, no Toeplitz top, no R2/R3 labels → no decrypt |
+22: So the bounty does **not** reduce to classical noisy LPN at `(n=4096, τ=1/8, m=720896)`. That side-target is real, but the decrypting secret is **`prf_k`**, with the LPN corpus acting as an exact verifier and an `S`-recovery oracle once `pr
+26: `keygen` samples `prf_k` as four independent `csprng_u64()` draws (256 bits). No public reduction of that space was found here or in the independent asbryx / smoke-ui assessments.
+28: Practical implication for accelerators (including IPUs): parallel `prf_k` trial is only useful under an **entropy hypothesis** that shrinks the candidate family well below 2^256. Each trial is cheap (one AES-CTR block + compare). Without su
+48: - [smoke-ui](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment): V2 not broken; LPN corpus audited; no commodity LPN break; notes `S` alone does not decrypt.
+49: - [asbryx](https://github.com/asbryx/octra-hfhe-v2-cryptanalysis): Same conclusion; measured ISD/BKW boundaries ~2^780+; reopen conditions include R2/R3 samples, Toeplitz material, or a reduced `prf_k` family.
+69: On a hit, pipe into recovery:
+72: ./prf_bridge recover-s pk.bin sample.jsonl <HIT_prf_k_hex>
+99: ### Results
+101: | Sweep | Trials | Hits |
+112: See [`results/partial_word_sweep.json`](results/partial_word_sweep.json).
+116: 1. Reduced / biased `prf_k` candidate family (RNG failure, seedable keygen misuse, leak).
+117: 2. R2/R3 samples or keyed Toeplitz material without `prf_k`.
+118: 3. A practical algorithm for dense LPN `(4096, 1/8)` that somehow bypasses the need for `prf_k` (not known; even then Toeplitz/`prf_k` remain).
+119: 4. Changed artifacts or producer provenance exposing secrets.
+## file research/lpn_prf_bridge/results/partial_word_sweep.json
+size 1650 sha eb557c7e0389
+flags []
+{
+  "hypothesis": "three prf_k u64 words fixed to 0; one free word enumerated in low B bits",
+  "sample": "ct00_l0_s0_pvac_prf_r_1.jsonl",
+  "pk_sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+  "planted_control": {
+    "free_word": 2,
+    "bits": 18,
+    "plant": "0x12345",
+    "found": true,
+    "rate_per_s": 6550000
+  },
+  "live_sweeps": [
+    {
+      "bits": 20,
+      "threads": 4,
+      "words_tested": [0, 1, 2, 3],
+      "also_all_zero": true,
+      "hits": 0,
+      "approx_rate_per_s": 5900000
+    },
+    {
+      "bits": 28,
+      "threads": 4,
+      "trials_per_word": 268435456,
+      "total_trials": 1073741825,
+      "words_tested": [0, 1, 2, 3],
+      "also_all_zero": true,
+      "hits": 0,
+      "approx_rate_per_s": 5100000,
+      "wall_seconds_approx": 213
+    },
+    {
+      "bits": 32,
+      "host": "threadripper-pro-user",
+      "trials_per_word": 4294967296,
+      "total_trials": 17179869185,
+      "words_tested": [0, 1, 2, 3],
+      "also_all_zero": true,
+      "hits": 0,
+      "approx_rate_per_s": 24350000,
+      "wall_seconds_per_word_approx": 176
+    }
+  ],
+  "conclusion": "Ruled out: all-zero prf_k, and any prf_k with three zero words and the remaining word in 0..2^32-1. Full single-word 2^64 and full 2^256 remain open. Partial-word-zero hypothesis is not a practical bounty path.",
+  "threadripper_guidance": {
+    "bits_32_done": true,
+    "bits_40_cost_note": "At ~24M/s, one word at B=40 is ~2^40/2.4e7 ≈ 12h; ×4 words ≈ 2 days. Low expected value after B=32 miss.",
+    "next": "Retire this hypothesis; pursue a different reduced prf_k family or non-brute avenues."
+  }
+}
+
+## file research/lpn_prf_bridge/prf_bridge.cpp
+size 18408 sha 222494f4efaa
+flags ['sk.prf_k', 'candidate']
+1: // Prove: published R1 (A,y) + candidate prf_k => noiseless LPN => recover S.
+143:     for (int i = 0; i < 4; ++i) sk.prf_k[i] = prf_k[i];
+169:     std::vector<uint8_t>* out_y_from_secret
+187:     if (out_y_from_secret) out_y_from_secret->assign(static_cast<size_t>(rows), 0);
+202:         if (out_y_from_secret) (*out_y_from_secret)[static_cast<size_t>(r)] = static_cast<uint8_t>(y);
+312:         throw std::runtime_error("GF(2) solve failed (rank deficit)");
+357:     std::array<uint64_t, 4> prf_k = {sk.prf_k[0], sk.prf_k[1], sk.prf_k[2], sk.prf_k[3]};
+375:     // Wrong key must fail first-row check.
+383:         throw std::runtime_error("selftest: correct key failed first-row match");
+389:     // With both secrets, prf_R must match the original sk path.
+404:     std::cout << "conclusion=prf_k_is_sufficient_given_R1_samples\n";
+## file research/lpn_prf_bridge/partial_word_scan.cpp
+size 30071 sha a33496ee1188
+flags ['sk.prf_k', 'candidate', 'result']
+137:     // Remaining fixed words after free_word are applied per trial with the candidate.
+181: struct ScanResult {
+182:     bool found = false;
+188: ScanResult scan_range(
+195:     ScanResult res;
+201:     std::atomic<bool> found{false};
+202:     std::mutex hit_mu;
+203:     uint64_t hit_words[4] = {0, 0, 0, 0};
+211:             if (found.load(std::memory_order_relaxed)) return;
+218:                 if (found.compare_exchange_strong(expected, true)) {
+219:                     std::lock_guard<std::mutex> lock(hit_mu);
+220:                     for (int i = 0; i < 4; ++i) hit_words[i] = local_words[i];
+237:     // If found early, next may overshoot; clamp tried to count for reporting.
+239:     if (found.load()) {
+240:         res.found = true;
+241:         for (int i = 0; i < 4; ++i) res.words[i] = hit_words[i];
+292:     for (int i = 0; i < 4; ++i) sk.prf_k[i] = truth[i];
+324:     std::cout << "planted_ok=" << (res.found && res.words[free_word] == plant_value ? 1 : 0) << "\n";
+326:     std::cout << "found=" << (res.found ? 1 : 0) << "\n";
+327:     if (res.found) std::cout << "prf_k_hex=" << prf_hex(res.words) << "\n";
+330:     return (res.found && res.words[free_word] == plant_value) ? 0 : 1;
+354:     // bits=0 => only the single candidate with free word = 0 (all fixed pattern).
+361:     std::cout << "found=" << (res.found ? 1 : 0) << "\n";
+362:     if (res.found) {
+363:         std::cout << "HIT_prf_k_hex=" << prf_hex(res.words) << "\n";
+368:     return res.found ? 0 : 1;
+378:     int hits = 0;
+383:         if (rc == 0) ++hits;
+388:     if (cmd_live(pk_path, sample_path, 0, 0, threads, fixed0) == 0) ++hits;
+389:     std::cout << "sweep_hits=" << hits << "\n";
+390:     return hits ? 0 : 1;
+394: ScanResult scan_pair_range(
+403:     ScanResult res;
+410:     std::atomic<bool> found{false};
+411:     std::mutex hit_mu;
+412:     uint64_t hit_words[4] = {0, 0, 0, 0};
+419:             if (found.load(std::memory_order_relaxed)) return;
+427:                 if (found.compare_exchange_strong(expected, true)) {
+428:                     std::lock_guard<std::mutex> lock(hit_mu);
+429:                     for (int k = 0; k < 4; ++k) hit_words[k] = local_words[k];
+445:     if (found.load()) {
+446:         res.found = true;
+447:         for (int k = 0; k < 4; ++k) res.words[k] = hit_words[k];
+478:     for (int i = 0; i < 4; ++i) sk.prf_k[i] = truth[i];
+504:     bool ok = res.found && res.words[word_a] == plant_a && res.words[word_b] == plant_b;
+508:     std::cout << "found=" << (res.found ? 1 : 0) << "\n";
+509:     if (res.found) std::cout << "prf_k_hex=" << prf_hex(res.words) << "\n";
+537:     std::cout << "found=" << (res.found ? 1 : 0) << "\n";
+538:     if (res.found) {
+539:         std::cout << "HIT_prf_k_hex=" << prf_hex(res.words) << "\n";
+544:     return res.found ? 0 : 1;
+554:     int hits = 0;
+558:         if (cmd_pair_live(pk_path, sample_path, p[0], p[1], bits, threads) == 0) ++hits;
+560:     std::cout << "pair_sweep_hits=" << hits << "\n";
+561:     return hits ? 0 : 1;
+580:     ScanResult res;
+582:     std::atomic<bool> found{false};
+583:     std::mutex hit_mu;
+584:     uint64_t hit_words[4] = {0, 0, 0, 0};
+592:             if (found.load(std::memory_order_relaxed)) return;
+599:                 if (found.compare_exchange_strong(expected, true)) {
+600:                     std::lock_guard<std::mutex> lock(hit_mu);
+601:                     for (int i = 0; i < 4; ++i) hit_words[i] = local[i];
+613:     if (found.load()) {
+614:         res.found = true;
+615:         for (int i = 0; i < 4; ++i) res.words[i] = hit_words[i];
+620:     std::cout << "found=" << (res.found ? 1 : 0) << "\n";
+621:     if (res.found) {
+622:         std::cout << "HIT_prf_k_hex=" << prf_hex(res.words) << "\n";
+627:     return res.found ? 0 : 1;
+636:     int hits = 0;
+639:         if (cmd_high_live(pk_path, sample_path, w, bits, threads) == 0) ++hits;
+641:     std::cout << "high_sweep_hits=" << hits << "\n";
+642:     return hits ? 0 : 1;

@@ -1,0 +1,18 @@
+## repo octra-labs/hfhe-challenge
+{"branches_total": 1, "default_branch": "main", "pushed_at": "2026-07-11T08:49:01Z", "tags_total": 1, "updated_at": "2026-07-21T16:46:31Z"}
+branch {"name": "main", "sha": "019380c97543"}
+tag {"name": "v2_fix", "sha": "08bf879dd9e9"}
+## repo ifeoluwaaj/hfhe-challenge
+{"branches_total": 2, "default_branch": "main", "pushed_at": "2026-07-12T06:03:19Z", "tags_total": 1, "updated_at": "2026-07-10T16:37:04Z"}
+branch {"name": "hfhe-v2-cryptanalysis", "sha": "ffed46e744bb"}
+branch {"name": "main", "sha": "0d08e9622921"}
+tag {"name": "v2_fix", "sha": "08bf879dd9e9"}
+## repo Eienel/hfhe-challenge-eienel
+{"branches_total": 3, "default_branch": "main", "pushed_at": "2026-07-14T09:17:06Z", "tags_total": 0, "updated_at": "2026-07-14T09:17:16Z"}
+branch {"name": "claude/hfhe-challenge-progress-b6ld5x", "sha": "c2897e67bbd5"}
+branch {"name": "claude/hfhe-challenge-v2-8bntzl", "sha": "93ff858fb947"}
+branch {"name": "main", "sha": "efb24174ac4c"}
+## repo Wezix/hfhe-challenge-test
+{"branches_total": 2, "default_branch": "main", "pushed_at": "2026-07-20T21:03:24Z", "tags_total": 0, "updated_at": "2026-07-10T00:52:35Z"}
+branch {"name": "cursor/lpn-prf-bridge-1ef0", "sha": "eb4035eccc3b"}
+branch {"name": "main", "sha": "0d08e9622921"}

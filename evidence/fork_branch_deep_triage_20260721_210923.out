@@ -1,0 +1,38 @@
+## Wezix/hfhe-challenge-test cursor/lpn-prf-bridge-1ef0
+commits
+  eb4035e 2026-07-20T21:03:23Z Add pair-sweep and high-sweep prf_k search modes
+file_count 15 suspicious_names 7
+  secret.ct 1963107
+  research/lpn_prf_bridge/Makefile 1159
+  research/lpn_prf_bridge/partial_word_scan.cpp 30071
+  research/lpn_prf_bridge/README.md 5432
+  research/lpn_prf_bridge/.gitignore 33
+  research/lpn_prf_bridge/prf_bridge.cpp 18408
+  research/lpn_prf_bridge/results/partial_word_sweep.json 1650
+marker_counts {"NatKey": 0, "Rku": 0, "Toeplitz": 4, "bridge": 49, "eval-key": 0, "mnemonic": 0, "plaintext": 10, "private key": 1, "recrypt": 0, "rk.sec": 0, "sk.prf": 9, "solved": 0}
+ hit README.md 1221 plaintext,private key
+ hit manifest.json 750 plaintext
+ hit source/hfhe_bounty_artifact.cpp 17289 plaintext
+ hit source/pvac_artifact_serialize.hpp 14434 sk.prf
+ hit research/lpn_prf_bridge/Makefile 1159 bridge
+ hit research/lpn_prf_bridge/partial_word_scan.cpp 30071 sk.prf,bridge
+ hit research/lpn_prf_bridge/README.md 5432 Toeplitz,bridge
+ hit research/lpn_prf_bridge/.gitignore 33 bridge
+ hit research/lpn_prf_bridge/prf_bridge.cpp 18408 sk.prf,bridge
+## ifeoluwaaj/hfhe-challenge hfhe-v2-cryptanalysis
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2154, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1268, in _check_timeout
+    raise TimeoutExpired(
+    ...<2 lines>...
+            stderr=b''.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command '['git', 'clone', '--quiet', '--depth', '1', '--branch', 'hfhe-v2-cryptanalysis', 'https://github.com/ifeoluwaaj/hfhe-challenge.git', '/var/folders/5x/n5rm52nj4b55zkrsmcflmw580000gn/T/hfhe_branch_fpqeqsez']' timed out after 120 seconds

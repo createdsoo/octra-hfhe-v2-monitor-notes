@@ -1,0 +1,91 @@
+clone_rc 0
+make_rc 0
+CMD sweep --bits 16 --threads 4
+rc 1
+=== sweep free_word=0 bits=16 ===
+mode=live
+free_word=0 bits=16
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=65536 seconds=0.012732 rate=5147177/s
+=== sweep free_word=1 bits=16 ===
+mode=live
+free_word=1 bits=16
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=65536 seconds=0.012582 rate=5208693/s
+=== sweep free_word=2 bits=16 ===
+mode=live
+free_word=2 bits=16
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=65536 seconds=0.014131 rate=4637664/s
+=== sweep free_word=3 bits=16 ===
+mode=live
+free_word=3 bits=16
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=65536 seconds=0.012452 rate=5262896/s
+=== sweep all-zero ===
+mode=live
+free_word=0 bits=0
+fixed_hex=0000000000000000000000000000000000000000000000000000000000000000
+found=0
+tried=1 seconds=0.000059 rate=17009/s
+sweep_hits=0
+CMD pair-sweep --bits 10 --threads 4
+rc 1
+=== pair-sweep words=0,1 bits_each=10 ===
+mode=pair-live
+words=0,1 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.200404 rate=5232312/s
+=== pair-sweep words=0,2 bits_each=10 ===
+mode=pair-live
+words=0,2 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.200564 rate=5228147/s
+=== pair-sweep words=0,3 bits_each=10 ===
+mode=pair-live
+words=0,3 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.200401 rate=5232402/s
+=== pair-sweep words=1,2 bits_each=10 ===
+mode=pair-live
+words=1,2 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.202163 rate=5186793/s
+=== pair-sweep words=1,3 bits_each=10 ===
+mode=pair-live
+words=1,3 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.200681 rate=5225088/s
+=== pair-sweep words=2,3 bits_each=10 ===
+mode=pair-live
+words=2,3 bits_each=10 total_bits=20
+found=0
+tried=1048576 seconds=0.199826 rate=5247455/s
+pair_sweep_hits=0
+CMD high-sweep --bits 16 --threads 4
+rc 1
+=== high-sweep free_word=0 high_bits=16 ===
+mode=high-live
+free_word=0 high_bits=16 shift=48
+found=0
+tried=65536 seconds=0.012474 rate=5253807/s
+=== high-sweep free_word=1 high_bits=16 ===
+mode=high-live
+free_word=1 high_bits=16 shift=48
+found=0
+tried=65536 seconds=0.012473 rate=5254351/s
+=== high-sweep free_word=2 high_bits=16 ===
+mode=high-live
+free_word=2 high_bits=16 shift=48
+found=0
+tried=65536 seconds=0.012726 rate=5149940/s
+=== high-sweep free_word=3 high_bits=16 ===
+mode=high-live
+free_word=3 high_bits=16 shift=48
+found=0
+tried=65536 seconds=0.012551 rate=5221385/s
+high_sweep_hits=0

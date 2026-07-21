@@ -1,0 +1,53 @@
+# full LPN sample binding audit
+samples=44 targets=44 ciphers=22
+ct00_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct0:L0:S0
+ct00_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct0:L1:S0
+ct01_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct1:L0:S0
+ct01_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct1:L1:S0
+ct02_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct2:L0:S0
+ct02_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct2:L1:S0
+ct03_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct3:L0:S0
+ct03_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct3:L1:S0
+ct04_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct4:L0:S0
+ct04_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct4:L1:S0
+ct05_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct5:L0:S0
+ct05_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct5:L1:S0
+ct06_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct6:L0:S0
+ct06_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct6:L1:S0
+ct07_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct7:L0:S0
+ct07_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct7:L1:S0
+ct08_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct8:L0:S0
+ct08_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct8:L1:S0
+ct09_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct9:L0:S0
+ct09_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct9:L1:S0
+ct10_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct10:L0:S0
+ct10_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct10:L1:S0
+ct11_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct11:L0:S0
+ct11_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct11:L1:S0
+ct12_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct12:L0:S0
+ct12_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct12:L1:S0
+ct13_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct13:L0:S0
+ct13_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct13:L1:S0
+ct14_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct14:L0:S0
+ct14_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct14:L1:S0
+ct15_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct15:L0:S0
+ct15_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct15:L1:S0
+ct16_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct16:L0:S0
+ct16_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct16:L1:S0
+ct17_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct17:L0:S0
+ct17_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct17:L1:S0
+ct18_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct18:L0:S0
+ct18_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct18:L1:S0
+ct19_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct19:L0:S0
+ct19_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct19:L1:S0
+ct20_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct20:L0:S0
+ct20_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct20:L1:S0
+ct21_l0_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct21:L0:S0
+ct21_l1_s0_pvac_prf_r_1.jsonl name_ok=1 exact_binding=1 matches_any=1 first_match=ct21:L1:S0
+
+# summary
+samples=44 targets=44 sample_keys_unique=44 sample_bindings_unique=44
+filename_meta_mismatch=0 wrong_domain=0 wrong_params=0
+missing_target=0 missing_sample_targets=0 exact_binding_ok=44 exact_binding_bad=0
+non_named_binding_count=0 ambiguous_binding_count=0
+assessment=all sample filenames, metadata, public_T, nonce, and ztag bind exactly to their named secret.ct layer/slot

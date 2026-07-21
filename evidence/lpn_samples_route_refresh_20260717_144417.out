@@ -1,0 +1,5 @@
+# lpn_samples route refresh 20260717_144417 UTC
+trigger=public search terms around lpn_samples/private key
+known public facts refreshed: public lpn_samples/R1 material appears in social/audit discussions, but all current public analyses still treat it as insufficient for v2 recovery.
+blocker: even a hypothetical R1-side solution does not publish or derive the independent target-specific PRF_R2, PRF_R3, sk.prf_k, Toeplitz secret stream, PC openings, plaintext, or wallet private key.
+result=route remains non-actionable without a new leak/candidate-check oracle; no locally testable candidate produced.

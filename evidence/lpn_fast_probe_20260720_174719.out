@@ -1,0 +1,7 @@
+loaded file0 rows=16384 total_m=16384
+file0 m=16384 ymean=0.500244 single_bit max=115.51 p99=84.01 med=21.51 sd~32.00 emax~130.52
+wt2 trials=5000 max=137.98 pair=(3956,2280) sd~32.00
+pooled total_m=90112
+pooled2048x44 m=90112 ymean=0.499945 single_bit max=329.50 p99=188.50 med=51.49 sd~75.05 emax~306.09
+wt2 trials=2000 max=252.01 pair=(3076,206) sd~75.05
+DONE

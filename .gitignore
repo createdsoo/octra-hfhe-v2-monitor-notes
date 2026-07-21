@@ -1,0 +1,16 @@
+# Keep this repository public and sanitized.
+github.txt
+*.pem
+*.key
+*.env
+.env*
+secret.ct
+pk.bin
+sk.bin
+challenge_private/
+pvac_hfhe_cpp/
+*.bin
+*.ct
+.DS_Store
+__pycache__/
+*.pyc

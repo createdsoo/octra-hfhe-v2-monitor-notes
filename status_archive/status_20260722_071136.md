@@ -11,13 +11,13 @@
 - Latest challenge commit remains `019380c97543` (`clarify lpn samples`, 2026-07-11T08:48:57Z); latest release remains `v2_fix` from 2026-07-07T09:12:22Z.
 - GitHub events still show no new official push/commit/PR/issue/release after the already-known 2026-07-16 fork/watch activity window. Latest event in fetched feed: `ForkEvent` by `Vibibiys` at `2026-07-16T16:43:10Z`.
 - Fork pushed-after-upstream set remains: ifeoluwaaj/hfhe-challenge, Eienel/hfhe-challenge-eienel, Wezix/hfhe-challenge-test; these have already been triaged as non-actionable.
-- X/DDG refresh returned `8` unique candidate URLs this cycle, `new_urls=['https://x.com/DrJStrategy/status/2077731662201233822', 'https://x.com/JeannaSzymanski/status/2078630589582688563', 'https://x.com/thesteinline/status/2076443428918050960', 'https://x.com/zebrinaholmes/status/2078591897543885174', 'https://x.com/keir_starmer/status/2048309288439853567']`; no new target-specific X lead appeared.
+- X/DDG refresh returned `8` unique candidate URLs. Five were new URL-level false positives: `DrJStrategy/status/2077731662201233822`, `JeannaSzymanski/status/2078630589582688563`, `thesteinline/status/2076443428918050960`, `zebrinaholmes/status/2078591897543885174`, and `keir_starmer/status/2048309288439853567`. The original snippets are unrelated politics/sports/chat posts; focused follow-up found no target markers or usable Octra/HFHE leak.
 - Refined public-web scan result unchanged: `blob_hits=113`. Current output still consists of generic source/README/recovery-tool references and v1 seed/mnemonic material, not target secrets.
 - Recent deeper checks remain unchanged: GitHub issue search, Octra org/lite_node sweep, full 33-fork ref inventory, broad external repo search, Wezix PRF-bridge reproduction, and PR body/comment audit are all negative for target material.
 
 ## New exclusions
 - No new official GitHub, fork, X, or public-web signal changed the state this cycle.
-- X/DDG returned no new unique candidate URL requiring deeper candidate-secret validation.
+- New X false positives were triaged as unrelated public-search noise; no `secret.ct`, wallet, PRF, recrypt, plaintext, or key marker was found.
 - No new target-specific `Rku`, `rk.sec`, `NatKey`, `eval-key`, recrypt/native bundle, target plaintext, private key, or mnemonic discovered.
 - The wallet is still unspent with no public key registration, so there is no chain-side evidence that a solver has claimed funds.
 - Authenticated GitHub check continues to work with sanitized token parsing; no secret material printed or published.
@@ -28,6 +28,7 @@
 - `github_events_refresh_20260722_071136.out`
 - `twitter_public_search_refresh_20260722_071136.out`
 - `x_new_resurface_triage_20260722_071136.out`
+- `x_new_url_focused_triage_20260722_071136.out`
 - `public_web_search_20260722_071136.out`
 - `github_issue_search_refresh_20260722_010952.out`
 - `octra_org_repos_refresh_20260722_001000.out`

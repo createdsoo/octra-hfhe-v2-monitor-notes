@@ -1,0 +1,64 @@
+{
+  "checked_utc": "2026-07-22T04:13:33Z",
+  "repo_full_name": "octra-labs/hfhe-challenge",
+  "repo_pushed_at": "2026-07-11T08:49:01Z",
+  "repo_updated_at": "2026-07-21T16:46:31Z",
+  "stargazers": 29,
+  "forks": 33,
+  "open_issues_count": 2,
+  "forks_fetched": 33,
+  "pulls_total": 4,
+  "standalone_issues_total": 0,
+  "latest_commits": [
+    {
+      "sha": "019380c97543",
+      "date": "2026-07-11T08:48:57Z",
+      "message": "clarify lpn samples"
+    },
+    {
+      "sha": "d9d29d505e28",
+      "date": "2026-07-11T03:32:27Z",
+      "message": "add lpn samples"
+    },
+    {
+      "sha": "0d08e9622921",
+      "date": "2026-07-09T21:49:58Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "899d93ad0f2f",
+      "date": "2026-07-09T21:32:30Z",
+      "message": "Update README.md"
+    },
+    {
+      "sha": "547271bcefb7",
+      "date": "2026-07-09T21:29:55Z",
+      "message": "active"
+    }
+  ],
+  "latest_releases": [
+    {
+      "tag": "v2_fix",
+      "published_at": "2026-07-07T09:12:22Z",
+      "name": "HFHE challenge v2"
+    }
+  ],
+  "forks_pushed_after_upstream": [
+    {
+      "full_name": "ifeoluwaaj/hfhe-challenge",
+      "pushed_at": "2026-07-12T06:03:19Z",
+      "default_branch": "main"
+    },
+    {
+      "full_name": "Eienel/hfhe-challenge-eienel",
+      "pushed_at": "2026-07-14T09:17:06Z",
+      "default_branch": "main"
+    },
+    {
+      "full_name": "Wezix/hfhe-challenge-test",
+      "pushed_at": "2026-07-20T21:03:24Z",
+      "default_branch": "main"
+    }
+  ],
+  "rate_remaining": "4991"
+}

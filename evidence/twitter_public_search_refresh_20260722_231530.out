@@ -1,0 +1,89 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-22T23:15:35.366158Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 33701
+1. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+2. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+3. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+4. update: we have moved the challenge funds back to the octra labs wallet ...
+   https://x.com/octra/status/2074456863874097405
+   
+5. DAY 3 UPDATE (WRITTEN + RAN) built + ran the timing/constancy probes on ...
+   https://x.com/Kubo100x/status/2076482459785625853
+   
+6. spent time investigating the Octra HFHE v2 bounty from the public ...
+   https://x.com/Kubo100x/status/2075388207882256852
+   
+7. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+8. the challenge to hack octra is back prepare your slop machines
+   https://x.com/octrabunch/status/2075346412384952744
+   
+
+## query: site:x.com octra hfhe solved
+bytes 33849
+1. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+2. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+3. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+4. @octra MY FINDINGS 1/ Audited Octra's HFHE bounty v2 (pvac_hfhe_cpp ...
+   https://x.com/akoredex95/status/2075379918800650241
+   
+5. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+6. @octra Resolving the Hidden Subspace Isolate the Systemic Part of $H ...
+   https://x.com/akoredex95/status/2075382909997838572
+   
+7. last year we published a simple explainer on how octra's hypergraph FHE ...
+   https://x.com/octra/status/2053142986427351447
+   
+8. we have added a few refinements regarding the octra virtual machine ...
+   https://x.com/lambda0xE/status/2078677644049367074
+   
+
+## query: site:x.com octra hfhe private key
+bytes 14212
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14223
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14262
+
+## query: site:x.com 2075336875322032268
+bytes 14212
+
+## query: site:x.com octralex HFHE challenge
+bytes 14220
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14230
+
+# unique candidate X URLs
+https://x.com/octra/status/2075336875322032268
+https://x.com/octra/status/2074422879131668578
+https://x.com/octra
+https://x.com/octra/status/2074456863874097405
+https://x.com/Kubo100x/status/2076482459785625853
+https://x.com/Kubo100x/status/2075388207882256852
+https://x.com/Kubo100x/status/2077300596064100794
+https://x.com/octrabunch/status/2075346412384952744
+https://x.com/akoredex95/status/2075379918800650241
+https://x.com/akoredex95/status/2075382909997838572
+https://x.com/octra/status/2053142986427351447
+https://x.com/lambda0xE/status/2078677644049367074

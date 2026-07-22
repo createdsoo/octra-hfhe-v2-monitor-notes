@@ -1,0 +1,29 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-22T00:10:12.017274Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 14220
+
+## query: site:x.com octra hfhe solved
+bytes 14214
+
+## query: site:x.com octra hfhe private key
+bytes 14212
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14218
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14286
+
+## query: site:x.com 2075336875322032268
+bytes 14212
+
+## query: site:x.com octralex HFHE challenge
+bytes 14220
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14218
+
+# unique candidate X URLs

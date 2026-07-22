@@ -1,0 +1,98 @@
+clone_rc 0
+commits
+  2a5803b 2026-07-19T04:15:45+01:00 lite node (pre-release mini-core build)
+  1c10548 2026-07-19T03:54:08+01:00 lite node (pre-release mini-core build)
+  98c7b6e 2026-07-19T03:00:58+01:00 lite node (pre-release mini-core build)
+  b380d88 2026-07-14T02:02:47+01:00 lite node (pre-release mini-core build)
+  e88600f 2026-07-05T19:05:54+04:00 pre-release mini-core
+  a682437 2026-07-01T05:32:06+04:00 pre-release mini-core
+  7e0d139 2026-07-01T05:23:49+04:00 pre-release mini-core
+  e94101a 2026-06-30T21:14:32Z pre-release mini-core
+  d7b7f1a 2026-06-30T22:06:12+04:00 pre-release mini-core
+  10ca4b5 2026-06-26T04:45:16+01:00 lite node (pre-release mini-core build)
+file_count 772 suspicious_names 17
+  node_runtime/consensus_epoch_apply_private_gate.mli 965
+  node_runtime/consensus_epoch_apply_private_gate.ml 1836
+  node_runtime/consensus_epoch_private_balance_shell.mli 3146
+  node_runtime/consensus_epoch_private_balance_shell.ml 5601
+  lib/core/private_ledger.ml 30460
+  lib/core/private_ledger.mli 3139
+  lib/core/circle_private/circle_balance_cell.ml 18474
+  lib/core/circle_private/circle_register_cell_store.ml 1268
+  lib/core/circle_private/circle_private_common.ml 5008
+  lib/core/circle_private/circle_register_cell.ml 17992
+  lib/core/circle_private/circle_balance_cell_store.ml 1460
+  lib/core/circle_policy/circle_hfhe_proof.ml 959
+  lib/core/circle_policy/circle_hfhe_policy.ml 28758
+  lib/core/circle_policy/circle_hfhe_receipt_class.ml 665
+  lib/core/circle_wasm/circle_wasm_hfhe_backend.ml 9618
+  mcl/src/xbyak/xbyak_mnemonic.h 248649
+  mcl/ffi/java/com/herumi/mcl/PrivateKey.java 2604
+marker_counts {"NatKey": 0, "Rku": 0, "Toeplitz": 0, "eval-key": 0, "hfhe": 547, "mnemonic": 4, "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ": 0, "plaintext": 113, "private key": 10, "recrypt": 45, "rk.sec": 0, "secret.ct": 0, "sk.prf": 2, "solved": 120}
+ hit pvac_ffi/pvac_stubs.cpp 55175 recrypt
+ hit pvac_ffi/pvac_serialize.hpp 24852 recrypt,sk.prf
+ hit pvac_ffi/pvac_ffi.ml 4994 recrypt
+ hit pvac_ffi/pvac_ffi.mli 3154 recrypt
+ hit mcl/Makefile 17390 mnemonic
+ hit circle_runtime/circle_exec.ml 67381 plaintext,hfhe
+ hit circle_runtime/circle_runtime_storage.ml 6925 hfhe
+ hit node_runtime/circle_read_rpc.mli 14580 plaintext,hfhe
+ hit node_runtime/tx_view.ml 36304 recrypt,hfhe
+ hit node_runtime/rpc_dispatch.mli 4594 hfhe
+ hit node_runtime/rpc_dispatch.ml 13871 hfhe
+ hit node_runtime/rest_view.ml 17991 private key
+ hit node_runtime/consensus_pending_commit_recovery.ml 7321 solved
+ hit node_runtime/consensus_epoch_apply_tree.ml 3680 solved
+ hit node_runtime/consensus_epoch_apply_sender_live.ml 10537 recrypt,hfhe
+ hit node_runtime/circle_view.ml 23314 plaintext,hfhe
+ hit node_runtime/circle_read_rpc.ml 50161 plaintext,hfhe
+ hit node_runtime/circle_view.mli 7837 plaintext,hfhe
+ hit lib/consensus/c_hash.ml 5921 private key
+ hit lib/consensus/c_engine.ml 23954 solved
+ hit lib/core/epoch_exec.ml 95562 recrypt,solved,plaintext,hfhe
+ hit lib/core/pvac_migration.ml 2182 hfhe
+ hit lib/core/peer_auth.ml 765 private key
+ hit lib/core/crypto.ml 38432 plaintext,private key,hfhe
+ hit lib/core/circle_wasm_native_stubs.c 4077 hfhe
+ hit lib/core/resource_lanes.ml 3854 recrypt,hfhe
+ hit lib/core/pvac_migration.mli 647 hfhe
+ hit lib/core/ledger_apply.ml 2379 recrypt
+ hit lib/core/node.ml 5022 private key
+ hit lib/core/circles.ml 69855 solved,plaintext,hfhe
+ hit lib/core/store_chaindata.ml 61076 solved
+ hit lib/core/pvac_legacy_public_replay.ml 7357 recrypt
+ hit lib/core/tree.ml 5638 solved
+ hit lib/core/ledger.ml 21275 hfhe
+ hit lib/core/preverify_worker.ml 9914 recrypt
+ hit lib/core/transaction.ml 13329 recrypt,hfhe
+ hit lib/vm/runtime/program_attestation.ml 4550 private key
+ hit lib/vm/runtime/contract_vm.ml 105865 hfhe
+ hit lib/vm/compiler/oct_gen.ml 108227 hfhe
+ hit lib/core/circle_transport/circle_transport_resolution.ml 940 solved
+ hit lib/core/circle_transport/circle_transport_write.ml 10196 solved
+ hit lib/core/circle_transport/circle_transport_state.ml 6021 solved
+ hit lib/core/circle_object_policy/circle_object_policy.ml 11050 hfhe
+ hit lib/core/circle_private/circle_balance_cell.ml 18474 solved,plaintext,hfhe
+ hit lib/core/circle_private/circle_private_common.ml 5008 solved,hfhe
+ hit lib/core/circle_private/circle_register_cell.ml 17992 solved,plaintext,hfhe
+ hit lib/core/circle_policy/circle_hfhe_proof.ml 959 hfhe
+ hit lib/core/circle_policy/circle_hfhe_policy.ml 28758 solved,hfhe
+ hit lib/core/circle_policy/circle_hfhe_receipt_class.ml 665 hfhe
+ hit lib/core/circle_policy/circle_transport_policy.ml 29477 solved
+ hit lib/core/circle_policy/circle_policy_store.ml 6750 hfhe
+ hit lib/core/circle_state/circle_state_descriptor.ml 12911 hfhe
+ hit lib/core/circle_state/circle_state_descriptor_store.ml 2039 hfhe
+ hit lib/core/circle_object_query/circle_object_detail_query.ml 5296 hfhe
+ hit lib/core/circle_wasm/circle_wasm_hfhe_backend.ml 9618 hfhe
+ hit lib/core/circle_wasm/circle_wasm_host.ml 20014 plaintext,hfhe
+ hit lib/core/circle_object_atomic/circle_object_apply.ml 15332 hfhe
+ hit lib/core/circle_object/circle_object_transition.ml 8342 hfhe
+ hit lib/core/circle_workflow/circle_balance_workflow.ml 10494 hfhe
+ hit lib/core/circle_workflow/circle_register_workflow.ml 8123 hfhe
+ hit lib/core/circle_wasm_native/src/lib.rs 145711 plaintext,hfhe
+ hit circle_runtime/wasm/circle_wasm_host.mjs 69589 plaintext,hfhe
+ hit mcl/sample/ecdh.cpp 1072 private key
+ hit mcl/src/s_xbyak.py 133187 mnemonic
+ hit mcl/src/xbyak/xbyak.h 98713 mnemonic
+ hit mcl/include/cybozu/socket.hpp 18938 solved
+ hit mcl/misc/she/she-api.md 12001 plaintext

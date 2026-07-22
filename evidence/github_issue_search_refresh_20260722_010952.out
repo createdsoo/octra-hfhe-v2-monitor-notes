@@ -1,0 +1,21 @@
+## query "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+total_count 0 incomplete False
+## query "secret.ct" "Octra"
+total_count 2 incomplete False
+{"body_preview": "## Summary\n\nAddresses the remaining independent editorial-review findings:\n\n- moves external proof/integrity reports from confirmed findings to reviewed non-findings\n- explicitly identifies every finding as affecting pinned upstream OCTRA a", "created_at": "2026-07-10T23:37:19Z", "html_url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/pull/5", "repository_url": "https://api.github.com/repos/smoke-ui/octra-hfhe-v2-security-assessment", "state": "closed", "title": "fix: clarify finding provenance and non-findings", "updated_at": "2026-07-10T23:39:01Z"}
+{"body_preview": "<!--\nFILE AS: GitHub issue on octra-labs/pvac_hfhe_cpp\nSuggested labels: bounty, security, soundness\nSuggested title:\n[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#50", "created_at": "2026-07-10T00:31:27Z", "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/issues/502", "repository_url": "https://api.github.com/repos/octra-labs/pvac_hfhe_cpp", "state": "open", "title": "[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#500) at 071b0e9", "updated_at": "2026-07-10T00:31:42Z"}
+## query "HFHE" "private key" "Octra"
+total_count 1 incomplete False
+{"body_preview": "## Summary\nCo-author assessment of Octra HFHE v2 (pvac `071b0e9`), contributed per CONTRIBUTING.md (\"improve reproducibility / add a controlled attack experiment\"). Adds standalone tooling smoke-ui does not currently carry as committed arti", "created_at": "2026-07-16T08:33:03Z", "html_url": "https://github.com/smoke-ui/octra-hfhe-v2-security-assessment/pull/12", "repository_url": "https://api.github.com/repos/smoke-ui/octra-hfhe-v2-security-assessment", "state": "open", "title": "Contrib: independent audit toolkit + summary (Kubo-cmd/hfhe-v2-solver)", "updated_at": "2026-07-16T08:33:04Z"}
+## query "HFHE" "mnemonic" "Octra"
+total_count 0 incomplete False
+## query "Rku" "Octra"
+total_count 1 incomplete False
+{"body_preview": "<!--\nFILE AS: GitHub issue on octra-labs/pvac_hfhe_cpp\nSuggested labels: bounty, security, soundness\nSuggested title:\n[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#50", "created_at": "2026-07-10T00:31:27Z", "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/issues/502", "repository_url": "https://api.github.com/repos/octra-labs/pvac_hfhe_cpp", "state": "open", "title": "[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#500) at 071b0e9", "updated_at": "2026-07-10T00:31:42Z"}
+## query "NatKey" "Octra"
+total_count 1 incomplete False
+{"body_preview": "<!--\nFILE AS: GitHub issue on octra-labs/pvac_hfhe_cpp\nSuggested labels: bounty, security, soundness\nSuggested title:\n[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#50", "created_at": "2026-07-10T00:31:27Z", "html_url": "https://github.com/octra-labs/pvac_hfhe_cpp/issues/502", "repository_url": "https://api.github.com/repos/octra-labs/pvac_hfhe_cpp", "state": "open", "title": "[security] Independent reproduction + confidentiality-impact assessment of the native-recrypt soundness gaps (PRs #499/#500) at 071b0e9", "updated_at": "2026-07-10T00:31:42Z"}
+## query "HIT_prf_k"
+total_count 0 incomplete False
+## query "Octra HFHE" "solved"
+total_count 0 incomplete False

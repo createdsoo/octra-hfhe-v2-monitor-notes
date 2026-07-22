@@ -1,0 +1,52 @@
+{
+  "total_urls": 8,
+  "new_urls": [
+    "https://x.com/DrJStrategy/status/2077731662201233822",
+    "https://x.com/JeannaSzymanski/status/2078630589582688563",
+    "https://x.com/thesteinline/status/2076443428918050960",
+    "https://x.com/zebrinaholmes/status/2078591897543885174",
+    "https://x.com/keir_starmer/status/2048309288439853567"
+  ],
+  "triage": [
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/search-advanced",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/DrJStrategy/status/2077731662201233822",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/JeannaSzymanski/status/2078630589582688563",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/thesteinline/status/2076443428918050960",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/zebrinaholmes/status/2078591897543885174",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/keir_starmer/status/2048309288439853567",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    }
+  ]
+}

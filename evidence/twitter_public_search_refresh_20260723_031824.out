@@ -1,0 +1,88 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-23T03:18:28.495425Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 33596
+1. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+2. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+3. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+4. To Test its HFHE encryption, @octra is launching a challenge for all ...
+   https://x.com/OxCryptoQueen/status/2074424954318176591
+   
+5. update: we have moved the challenge funds back to the octra labs wallet ...
+   https://x.com/octra/status/2074456863874097405
+   
+6. spent time investigating the Octra HFHE v2 bounty from the public ...
+   https://x.com/Kubo100x/status/2075388207882256852
+   
+7. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+8. the challenge to hack octra is back prepare your slop machines
+   https://x.com/octrabunch/status/2075346412384952744
+   
+
+## query: site:x.com octra hfhe solved
+bytes 14200
+
+## query: site:x.com octra hfhe private key
+bytes 34022
+1. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+2. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+3. how to get $24,269 using claude fable and gpt 5.6 sol octa is giving ...
+   https://x.com/TheMaran/status/2075586595869368507
+   
+4. the challenge to hack octra is back prepare your slop machines
+   https://x.com/octrabunch/status/2075346412384952744
+   
+5. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+6. To Test its HFHE encryption, @octra is launching a challenge for all ...
+   https://x.com/OxCryptoQueen/status/2074424954318176591
+   
+7. Octra ICO is live….!!!! The only fully encrypted L1 with real FHE ...
+   https://x.com/PempareWeb3/status/1999473031853596946
+   
+8. hi, an example of a private (FHE) ml contract on octra network ...
+   https://x.com/lambda0xE/status/2028247516509250017
+   
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14212
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14268
+
+## query: site:x.com 2075336875322032268
+bytes 14212
+
+## query: site:x.com octralex HFHE challenge
+bytes 14220
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14224
+
+# unique candidate X URLs
+https://x.com/octra/status/2075336875322032268
+https://x.com/octra/status/2074422879131668578
+https://x.com/octra
+https://x.com/OxCryptoQueen/status/2074424954318176591
+https://x.com/octra/status/2074456863874097405
+https://x.com/Kubo100x/status/2075388207882256852
+https://x.com/Kubo100x/status/2077300596064100794
+https://x.com/octrabunch/status/2075346412384952744
+https://x.com/TheMaran/status/2075586595869368507
+https://x.com/PempareWeb3/status/1999473031853596946
+https://x.com/lambda0xE/status/2028247516509250017

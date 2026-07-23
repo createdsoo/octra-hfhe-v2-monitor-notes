@@ -1,0 +1,51 @@
+{
+  "total_urls": 8,
+  "new_urls": [
+    "https://x.com/TimBontemps/status/2074849551924789615",
+    "https://x.com/bennyjohnson/status/2077577672813638043",
+    "https://x.com/exponentialluke/status/2072762715152736639",
+    "https://x.com/mikeascotto/status/2073170730989011368"
+  ],
+  "triage": [
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/search-advanced",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/TimBontemps/status/2074849551924789615",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/thesteinline/status/2076443428918050960",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/bennyjohnson/status/2077577672813638043",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/exponentialluke/status/2072762715152736639",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/mikeascotto/status/2073170730989011368",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    }
+  ]
+}

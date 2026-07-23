@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-07-23T06:48:20Z",
+  "source": "twitter_public_search_refresh_20260723_064725.out snippets and URL/handle topical triage",
+  "new_url_count": 4,
+  "results": [
+    {
+      "url": "https://x.com/TimBontemps/status/2074849551924789615",
+      "handle": "TimBontemps",
+      "actionable_marker_found": false,
+      "classification": "sports/NBA article snippet; unrelated to Octra/HFHE",
+      "negative_markers": [
+        "no Octra",
+        "no HFHE",
+        "no target wallet",
+        "no secret.ct/pk.bin",
+        "no Rku/rk.sec/NatKey",
+        "no plaintext/private key/mnemonic"
+      ]
+    },
+    {
+      "url": "https://x.com/bennyjohnson/status/2077577672813638043",
+      "handle": "bennyjohnson",
+      "actionable_marker_found": false,
+      "classification": "US politics snippet; unrelated to Octra/HFHE",
+      "negative_markers": [
+        "no Octra",
+        "no HFHE",
+        "no target wallet",
+        "no secret.ct/pk.bin",
+        "no Rku/rk.sec/NatKey",
+        "no plaintext/private key/mnemonic"
+      ]
+    },
+    {
+      "url": "https://x.com/exponentialluke/status/2072762715152736639",
+      "handle": "exponentialluke",
+      "actionable_marker_found": false,
+      "classification": "finance/podcast snippet about RKLB/Iridium; unrelated to Octra/HFHE",
+      "negative_markers": [
+        "no Octra",
+        "no HFHE",
+        "no target wallet",
+        "no secret.ct/pk.bin",
+        "no Rku/rk.sec/NatKey",
+        "no plaintext/private key/mnemonic"
+      ]
+    },
+    {
+      "url": "https://x.com/mikeascotto/status/2073170730989011368",
+      "handle": "mikeascotto",
+      "actionable_marker_found": false,
+      "classification": "sports/NBA free-agent snippet; unrelated to Octra/HFHE",
+      "negative_markers": [
+        "no Octra",
+        "no HFHE",
+        "no target wallet",
+        "no secret.ct/pk.bin",
+        "no Rku/rk.sec/NatKey",
+        "no plaintext/private key/mnemonic"
+      ]
+    }
+  ]
+}

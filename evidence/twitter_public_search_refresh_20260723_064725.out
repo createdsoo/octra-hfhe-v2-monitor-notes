@@ -1,0 +1,61 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-23T06:47:30.051651Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 14237
+
+## query: site:x.com octra hfhe solved
+bytes 14208
+
+## query: site:x.com octra hfhe private key
+bytes 14224
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14211
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14274
+
+## query: site:x.com 2075336875322032268
+bytes 32343
+1. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+2. Twitter. It's what's happening / Twitter
+   https://x.com/search-advanced
+   
+3. X. See what's happening
+   https://x.com/
+   
+4. And a special thank you to @BannedMacMahon, @WindhorstESPN and Jackson ...
+   https://x.com/TimBontemps/status/2074849551924789615
+   
+5. Frank Vogel is poised to join Steve Kerr's coaching staff in Golden ...
+   https://x.com/thesteinline/status/2076443428918050960
+   
+6. BREAKING: President Trump Just Went Inside the Situation Room Trump has ...
+   https://x.com/bennyjohnson/status/2077577672813638043
+   
+7. New Being Exponential episode - $RKLB: $8B Iridium acquisition turns ...
+   https://x.com/exponentialluke/status/2072762715152736639
+   
+8. Breaking: The New York Knicks and free agent center Andre Drummond have ...
+   https://x.com/mikeascotto/status/2073170730989011368
+   
+
+## query: site:x.com octralex HFHE challenge
+bytes 14238
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14218
+
+# unique candidate X URLs
+https://x.com/octra/status/2075336875322032268
+https://x.com/search-advanced
+https://x.com/
+https://x.com/TimBontemps/status/2074849551924789615
+https://x.com/thesteinline/status/2076443428918050960
+https://x.com/bennyjohnson/status/2077577672813638043
+https://x.com/exponentialluke/status/2072762715152736639
+https://x.com/mikeascotto/status/2073170730989011368

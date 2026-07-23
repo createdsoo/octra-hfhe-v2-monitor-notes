@@ -1,0 +1,66 @@
+{
+  "total_urls": 12,
+  "new_urls": [],
+  "triage": [
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/octra/status/2074422879131668578",
+      "new_this_cycle": false,
+      "triage": "official HFHE/v2 announcement; already archived"
+    },
+    {
+      "url": "https://x.com/octra",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/octra/status/2074456863874097405",
+      "new_this_cycle": false,
+      "triage": "official generic/update post; no target secret in prior archive"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2076482459785625853",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2075388207882256852",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2077300596064100794",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/octrabunch/status/2075346412384952744",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra/status/2053142986427351447",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/Hikkimori/status/2075727549301145922",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra/status/1948346601707036950",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/iamknownasfesal/status/2074450723929051380",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    }
+  ]
+}

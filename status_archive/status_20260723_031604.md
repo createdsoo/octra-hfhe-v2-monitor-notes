@@ -11,13 +11,13 @@
 - Latest challenge commit remains `019380c97543` (`clarify lpn samples`, 2026-07-11T08:48:57Z); latest release remains `v2_fix` from 2026-07-07T09:12:22Z.
 - GitHub events still show no new official push/commit/PR/issue/release after the already-known 2026-07-16 fork/watch activity window. Latest event in fetched feed: `ForkEvent` by `Vibibiys` at `2026-07-16T16:43:10Z`.
 - Fork pushed-after-upstream set remains: ifeoluwaaj/hfhe-challenge, Eienel/hfhe-challenge-eienel, Wezix/hfhe-challenge-test; these have already been triaged as non-actionable.
-- X/DDG refresh returned `12` unique candidate URLs this cycle, `new_urls=['https://x.com/octra/status/2025613179225551075']`; no new target-specific X lead appeared.
+- X/DDG refresh returned `12` unique candidate URLs. One newly surfaced official Octra historical HFHE intro URL (`octra/status/2025613179225551075`) was triaged: snippet says it is a 2022 intro/hypergraph FHE explainer reference, not a v2 target leak; focused search found no `secret.ct`, key, mnemonic, PRF, recrypt, or solve marker.
 - Refined public-web scan result unchanged: `blob_hits=113`. Current output still consists of generic source/README/recovery-tool references and v1 seed/mnemonic material, not target secrets.
 - Recent deeper checks remain unchanged: GitHub issue search, Octra org/lite_node sweep, full 33-fork ref inventory, broad external repo search, Wezix PRF-bridge reproduction, and PR body/comment audit are all negative for target material.
 
 ## New exclusions
 - No new official GitHub, fork, X, or public-web signal changed the state this cycle.
-- X/DDG returned no new unique candidate URL requiring deeper candidate-secret validation.
+- Newly surfaced `octra/status/2025613179225551075` is an official historical intro/explainer link, not a target-specific leak.
 - No new target-specific `Rku`, `rk.sec`, `NatKey`, `eval-key`, recrypt/native bundle, target plaintext, private key, or mnemonic discovered.
 - The wallet is still unspent with no public key registration, so there is no chain-side evidence that a solver has claimed funds.
 - Authenticated GitHub check continues to work with sanitized token parsing; no secret material printed or published.
@@ -28,6 +28,7 @@
 - `github_events_refresh_20260723_031604.out`
 - `twitter_public_search_refresh_20260723_031604.out`
 - `x_new_resurface_triage_20260723_031604.out`
+- `x_new_url_focused_triage_20260723_031604.out`
 - `public_web_search_20260723_031604.out`
 - `github_issue_search_refresh_20260722_010952.out`
 - `octra_org_repos_refresh_20260722_001000.out`

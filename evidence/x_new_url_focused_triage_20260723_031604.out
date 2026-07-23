@@ -1,0 +1,50 @@
+{
+  "checked_utc": "2026-07-23T03:16:53Z",
+  "new_url_count": 1,
+  "results": [
+    {
+      "url": "https://x.com/octra/status/2025613179225551075",
+      "handle": "octra",
+      "status_id": "2025613179225551075",
+      "actionable_secret_marker_found": false,
+      "searches": [
+        {
+          "query": "\"https://x.com/octra/status/2025613179225551075\"",
+          "bytes": 14319,
+          "captcha": true,
+          "markers": [
+            "challenge"
+          ],
+          "snippet": " --> DuckDuckGo DuckDuckGo Unfortunately, bots use DuckDuckGo too. Please complete the following challenge to confirm this search was made by a human. Select all squares containing a duck: Submit Images not loading? Please email the following code to: error-lite@duckduckgo.com Code: d4cd0dabcf4caa22ad92fab40844c786 here . //--> "
+        },
+        {
+          "query": "\"2025613179225551075\" \"Octra\"",
+          "bytes": 14295,
+          "captcha": true,
+          "markers": [
+            "challenge"
+          ],
+          "snippet": " --> DuckDuckGo DuckDuckGo Unfortunately, bots use DuckDuckGo too. Please complete the following challenge to confirm this search was made by a human. Select all squares containing a duck: Submit Images not loading? Please email the following code to: error-lite@duckduckgo.com Code: d4cd0dabcf4caa22ad92fab40844c786 here . //--> "
+        },
+        {
+          "query": "\"2025613179225551075\" \"HFHE\"",
+          "bytes": 14286,
+          "captcha": true,
+          "markers": [
+            "challenge"
+          ],
+          "snippet": " --> DuckDuckGo DuckDuckGo Unfortunately, bots use DuckDuckGo too. Please complete the following challenge to confirm this search was made by a human. Select all squares containing a duck: Submit Images not loading? Please email the following code to: error-lite@duckduckgo.com Code: d4cd0dabcf4caa22ad92fab40844c786 here . //--> "
+        },
+        {
+          "query": "\"octra\" \"2025613179225551075\"",
+          "bytes": 14301,
+          "captcha": true,
+          "markers": [
+            "challenge"
+          ],
+          "snippet": " --> DuckDuckGo DuckDuckGo Unfortunately, bots use DuckDuckGo too. Please complete the following challenge to confirm this search was made by a human. Select all squares containing a duck: Submit Images not loading? Please email the following code to: error-lite@duckduckgo.com Code: d4cd0dabcf4caa22ad92fab40844c786 here . //--> "
+        }
+      ]
+    }
+  ]
+}

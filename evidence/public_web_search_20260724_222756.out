@@ -1,0 +1,114 @@
+blob_hits 113
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 1, "text": "# Building the HFHE Challenge Solver"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 5, "text": "1. **PVAC-HFHE library** (commit: 071b0e909c119de815e284b347c4bd979cb59ef3)"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 7, "text": "   git clone https://github.com/octra-labs/pvac_hfhe_cpp.git"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 8, "text": "   cd pvac_hfhe_cpp"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 28, "text": "cd hfhe-challenge"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 31, "text": "cmake .. -DPVAC_HFHE_ROOT=/path/to/pvac_hfhe_cpp -DCMAKE_BUILD_TYPE=Release"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 38, "text": "cd hfhe-challenge/tools"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 42, "text": "  -I/path/to/pvac_hfhe_cpp/include \\"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 48, "text": "  -I/path/to/pvac_hfhe_cpp/include \\"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 54, "text": "  -I/path/to/pvac_hfhe_cpp/include \\"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 60, "text": "  -I/path/to/pvac_hfhe_cpp/include \\"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 66, "text": "  -I/path/to/pvac_hfhe_cpp/include \\"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 107, "text": "- Set `PVAC_HFHE_ROOT` to the root directory of the pvac_hfhe_cpp repository"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 108, "text": "- Ensure pvac_hfhe_cpp is built: `make test-hfhe-native` should work"}
+{"oid": "a54474ce76dd", "path": "BUILD.md", "size": 3403, "pat": "hfhe", "line": 116, "text": "- Check if pvac_hfhe_cpp has prebuilt objects or requires building"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 2, "text": "project(hfhe-challenge-solver CXX)"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 8, "text": "if(NOT DEFINED PVAC_HFHE_ROOT)"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 9, "text": "    message(STATUS \"PVAC_HFHE_ROOT not set, attempting to find...\")"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 10, "text": "    find_package(pvac_hfhe QUIET)"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 11, "text": "    if(NOT pvac_hfhe_FOUND)"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 12, "text": "        message(FATAL_ERROR \"Please set -DPVAC_HFHE_ROOT=/path/to/pvac_hfhe_cpp or install pvac_hfhe\")"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 15, "text": "    message(STATUS \"Using PVAC_HFHE_ROOT: ${PVAC_HFHE_ROOT}\")"}
+{"oid": "6cb609ca5aba", "path": "CMakeLists.txt", "size": 1149, "pat": "hfhe", "line": 18, "text": "include_directories(${PVAC_HFHE_ROOT}/include)"}
+{"oid": "094a5d23d706", "path": "README.md", "size": 1221, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 5, "text": "The task is to recover the plaintext from `secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ`."}
+{"oid": "deb4a05ce1d9", "path": "README_RECOVERY.md", "size": 5644, "pat": "priv", "line": 93, "text": "- **Problem**: Recover x (private key) or e (error)"}
+{"oid": "deb4a05ce1d9", "path": "README_RECOVERY.md", "size": 5644, "pat": "priv", "line": 187, "text": "  1. The private key (sk.bin)"}
+{"oid": "b7bb3f56cf58", "path": "SHA256SUMS", "size": 664, "pat": "secret.ct", "line": 6, "text": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab  secret.ct"}
+{"oid": "bc8743eb0f46", "path": "manifest.json", "size": 750, "pat": "secret.ct", "line": 22, "text": "    \"ciphertext\": \"secret.ct\","}
+{"oid": "bc8743eb0f46", "path": "manifest.json", "size": 750, "pat": "secret.ct", "line": 26, "text": "  \"winning_condition\": \"recover plaintext from secret.ct using public files only; follow the recovered instructions\""}
+{"oid": "94c942b06e2a", "path": "params.json", "size": 527, "pat": "hfhe", "line": 2, "text": "  \"format\": \"octra-hfhe-bounty-v2\","}
+{"oid": "2714755eb9d5", "path": "source/common/analysis_utils.hpp", "size": 5641, "pat": "hfhe", "line": 10, "text": "namespace hfhe_tools {"}
+{"oid": "2714755eb9d5", "path": "source/common/analysis_utils.hpp", "size": 5641, "pat": "hfhe", "line": 188, "text": "} // namespace hfhe_tools"}
+{"oid": "40f2ea41c256", "path": "source/common/bundle_deserializer.hpp", "size": 6269, "pat": "priv", "line": 24, "text": "private:"}
+{"oid": "89e1f1bbdf94", "path": "source/common/file_utils.hpp", "size": 4580, "pat": "hfhe", "line": 11, "text": "namespace hfhe_tools {"}
+{"oid": "89e1f1bbdf94", "path": "source/common/file_utils.hpp", "size": 4580, "pat": "hfhe", "line": 145, "text": "} // namespace hfhe_tools"}
+{"oid": "c44325e5ab0e", "path": "source/common/logger.hpp", "size": 2666, "pat": "priv", "line": 19, "text": "private:"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 25, "text": "const fs::path PRIVATE_DIR = \"challenge_private\";"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 48, "text": "fs::path private_root(const fs::path& pub) {"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 49, "text": "    return pub.parent_path() / PRIVATE_DIR;"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 335, "text": "    const fs::path priv = private_root(pub);"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 339, "text": "    if (!fs::exists(priv)) fs::create_directory(priv);"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 341, "text": "    ::chmod(priv.c_str(), 0700);"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 342, "text": "    if (!fs::exists(priv / \"plaintext.txt\"))"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 351, "text": "    auto plain_blob = read_file(priv / \"plaintext.txt\");"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 362, "text": "    write_file(priv / \"sk.bin\", sk_blob, 0600);"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 367, "text": "    auto sk2_blob = read_file(priv / \"sk.bin\");"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 382, "text": "    const fs::path priv = private_root(pub);"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 384, "text": "    auto sk_blob = read_file(priv / \"sk.bin\");"}
+{"oid": "344d92c71d42", "path": "source/hfhe_bounty_artifact.cpp", "size": 17289, "pat": "priv", "line": 386, "text": "    auto plain_blob = read_file(priv / \"plaintext.txt\");"}
+{"oid": "dcad5efac096", "path": "tools/attack_pubkey_analysis.cpp", "size": 5976, "pat": "hfhe", "line": 26, "text": "        std::cout << \"=== HFHE Public Key Analysis Attack ===\\n\\n\";"}
+{"oid": "0763b76921b4", "path": "tools/attack_pubkey_analysis_v2.cpp", "size": 7769, "pat": "priv", "line": 17, "text": "private:"}
+{"oid": "0763b76921b4", "path": "tools/attack_pubkey_analysis_v2.cpp", "size": 7769, "pat": "priv", "line": 45, "text": "private:"}
+{"oid": "51d4cd1f0ce4", "path": "tools/attack_syndrome_decoder.cpp", "size": 6201, "pat": "priv", "line": 140, "text": "        std::cout << \"         - Recover private key from H via syndrome decoding\\n\";"}
+{"oid": "f48ab92e0f42", "path": "tools/challenge_analyzer.cpp", "size": 7136, "pat": "secret.ct", "line": 51, "text": "        std::cout << \"[*] Loading ciphertext from secret.ct...\\n\";"}
+{"oid": "f48ab92e0f42", "path": "tools/challenge_analyzer.cpp", "size": 7136, "pat": "secret.ct", "line": 52, "text": "        auto ct_data = read_file(\"secret.ct\");"}
+{"oid": "1af10550149b", "path": "tools/challenge_analyzer_v2.cpp", "size": 9118, "pat": "priv", "line": 18, "text": "private:"}
+{"oid": "1af10550149b", "path": "tools/challenge_analyzer_v2.cpp", "size": 9118, "pat": "priv", "line": 46, "text": "private:"}
+{"oid": "9ef0d73781cb", "path": "tools/inspect_artifacts.cpp", "size": 4516, "pat": "secret.ct", "line": 61, "text": "            auto ct_data = read_file(\"secret.ct\");"}
+{"oid": "073f209bb05f", "path": "tools/plaintext_recovery.cpp", "size": 6732, "pat": "priv", "line": 163, "text": "        std::cout << \"\\n[NOTE] To decrypt: need to recover private key or find weakness in:\\n\";"}
+{"oid": "bd9480597a23", "path": "tools/plaintext_recovery_v2.cpp", "size": 6534, "pat": "priv", "line": 17, "text": "private:"}
+{"oid": "bd9480597a23", "path": "tools/plaintext_recovery_v2.cpp", "size": 6534, "pat": "priv", "line": 46, "text": "private:"}
+{"oid": "c8ff9c2d3564", "path": "README.md", "size": 1268, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 5, "text": "The task is to recover the plaintext encryption path using the provided binary artifact, `secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ`."}
+{"oid": "bdc2bd429e89", "path": "README.md", "size": 1242, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 5, "text": "The task is to recover the plaintext encryption path using the provided binary artifact, secret.ct. This file contains a private key and metadata associated with the address octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ."}
+{"oid": "e763ec9a9678", "path": "README.md", "size": 1036, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 4, "text": "The entire task boils down to attempting to recover or crack the plaintext encryption path using the provided binary artifact -`secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt"}
+{"oid": "d1627238e7f6", "path": "SHA256SUMS", "size": 664, "pat": "secret.ct", "line": 6, "text": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab  secret.ct"}
+{"oid": "d8ae53e068ce", "path": "manifest.json", "size": 755, "pat": "secret.ct", "line": 22, "text": "    \"ciphertext\": \"secret.ct\","}
+{"oid": "d8ae53e068ce", "path": "manifest.json", "size": 755, "pat": "secret.ct", "line": 26, "text": "  \"winning_condition\": \"recover plaintext from secret.ct using public files only; follow the recovered instructions\""}
+{"oid": "fc4b4f5b9f2a", "path": "README.md", "size": 869, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 4, "text": "The entire task boils down to attempting to recover or crack the plaintext encryption path using the provided binary artifact -`secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt"}
+{"oid": "4c031eaa58a5", "path": "SHA256SUMS", "size": 663, "pat": "secret.ct", "line": 6, "text": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab  secret.ct"}
+{"oid": "24ca1472bd92", "path": "README.md", "size": 866, "pat": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ", "line": 4, "text": "The entire task boils down to attempting to recover or crack the plaintext encryption path using the provided binary artifact—`secret.ct`. This file contains a private key and metadata associated with the address `octC5eR9pLGKbpzTbDgHowkFt8"}
+{"oid": "ec9d4ec68b69", "path": "SHA256SUMS", "size": 663, "pat": "secret.ct", "line": 6, "text": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab  secret.ct"}
+{"oid": "bf66fb11187f", "path": "README.md", "size": 745, "pat": "secret.ct", "line": 5, "text": "Your task is to recover the plaintext from the provided artifact—`secret.ct`—which contains metadata (the address for a successful bounty submission and a secret key). The reward remains unchanged: 500k OCT."}
+{"oid": "bf66fb11187f", "path": "README.md", "size": 745, "pat": "secret.ct", "line": 13, "text": "- `secret.ct`"}
+{"oid": "8ae12c9b7b09", "path": "SHA256SUMS", "size": 664, "pat": "secret.ct", "line": 6, "text": "1f48fae52859e3f21011a565f40348e21b4ed3aaa07b1b404d58a4fc6c0456d4  secret.ct"}
+{"oid": "f8c397d00d64", "path": "README.md", "size": 89, "pat": "secret.ct", "line": 3, "text": "target = recover plaintext from secret.ct"}
+{"oid": "c7d0918eaa17", "path": "SHA256SUMS", "size": 664, "pat": "secret.ct", "line": 6, "text": "8f38ed7706cca15fa5208de905cf3ee4456fafc3c72068d26ea46ac7b6fa3300  secret.ct"}
+{"oid": "a6ff3e102ccb", "path": "manifest.json", "size": 1001, "pat": "priv", "line": 28, "text": "  \"private_artifacts_not_published\": ["}
+{"oid": "a6ff3e102ccb", "path": "manifest.json", "size": 1001, "pat": "priv", "line": 31, "text": "    \"private decryption key\","}
+{"oid": "a6ff3e102ccb", "path": "manifest.json", "size": 1001, "pat": "priv", "line": 32, "text": "    \"private plaintext\""}
+{"oid": "1570e167ac68", "path": "params.json", "size": 601, "pat": "hfhe", "line": 2, "text": "  \"format\": \"octra-hfhe-bounty-v2\","}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 25, "text": "const fs::path PRIVATE_DIR = \"challenge_private\";"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 86, "text": "fs::path private_root(const fs::path& pub) {"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 87, "text": "    return pub.parent_path() / PRIVATE_DIR;"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 390, "text": "      << \"  \\\"private_artifacts_not_published\\\": [\\n\""}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 393, "text": "      << \"    \\\"private decryption key\\\",\\n\""}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 394, "text": "      << \"    \\\"private plaintext\\\"\\n\""}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 404, "text": "    const fs::path priv = private_root(pub);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 406, "text": "    if (fs::exists(pub / \"pk.bin\") || fs::exists(pub / \"secret.ct\") || fs::exists(priv))"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 408, "text": "    fs::create_directory(priv);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 410, "text": "    ::chmod(priv.c_str(), 0700);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 429, "text": "    write_file(priv / \"sk.bin\", sk_blob, 0600);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 430, "text": "    write_file(priv / \"plaintext.txt\", plain_blob, 0600);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 435, "text": "    auto sk2_blob = read_file(priv / \"sk.bin\");"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 448, "text": "              << \"secret_path = \" << (priv / \"sk.bin\").string() << \"\\n\";"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 453, "text": "    const fs::path priv = private_root(pub);"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 455, "text": "    auto sk_blob = read_file(priv / \"sk.bin\");"}
+{"oid": "8ac10ec7dd6c", "path": "source/hfhe_bounty_artifact.cpp", "size": 20016, "pat": "priv", "line": 457, "text": "    auto plain_blob = read_file(priv / \"plaintext.txt\");"}
+{"oid": "2035ba54310d", "path": "SHA256SUMS", "size": 664, "pat": "secret.ct", "line": 6, "text": "8f38ed7706cca15fa5208de905cf3ee4456fafc3c72068d26ea46ac7b6fa3300  secret.ct"}
+{"oid": "e234bdf6cd77", "path": "README.md", "size": 878, "pat": "hfhe", "line": 1, "text": "# HFHE challenge"}
+{"oid": "e234bdf6cd77", "path": "README.md", "size": 878, "pat": "hfhe", "line": 16, "text": "- `pk.bin`: public HFHE key material"}
+{"oid": "e234bdf6cd77", "path": "README.md", "size": 878, "pat": "hfhe", "line": 19, "text": "- `pvac_commit.txt`: exact `pvac_hfhe_cpp` commit used"}
+{"oid": "c349f6fbf393", "path": "SHA256SUMS", "size": 676, "pat": "hfhe", "line": 7, "text": "06aeb77b8f0621788732834d2f0456b350df43f706ee085cedf7e32f22c667cd  ./source/hfhe_seed_artifact.cpp"}
+{"oid": "737c57cfa4f8", "path": "manifest.json", "size": 1330, "pat": "octra-wallet", "line": 11, "text": "    \"type\": \"octra-wallet-mnemonic\","}
+{"oid": "9ff361f2b4f3", "path": "params.json", "size": 536, "pat": "hfhe", "line": 2, "text": "  \"format\": \"octra-hfhe-seed-challenge-v1\","}
+{"oid": "d84014eb75b4", "path": "source/hfhe_seed_artifact.cpp", "size": 9001, "pat": "mnemonic", "line": 145, "text": "    std::string seed1 = read_secret(\"mnemonic = \");"}
+{"oid": "d84014eb75b4", "path": "source/hfhe_seed_artifact.cpp", "size": 9001, "pat": "mnemonic", "line": 146, "text": "    std::string seed2 = read_secret(\"mnemonic_confirm = \");"}
+{"oid": "d84014eb75b4", "path": "source/hfhe_seed_artifact.cpp", "size": 9001, "pat": "mnemonic", "line": 149, "text": "        throw std::runtime_error(\"mnemonics do not match\");"}
+{"oid": "d84014eb75b4", "path": "source/hfhe_seed_artifact.cpp", "size": 9001, "pat": "mnemonic", "line": 200, "text": "    std::string expected = read_secret(\"verify_mnemonic = \");"}
+{"oid": "eea792a8bb39", "path": "README.md", "size": 1004, "pat": "mnemonic", "line": 11, "text": "The wallet mnemonic was encrypted directly using the pinned `pvac_hfhe_cpp` implementation."}
+{"oid": "eea792a8bb39", "path": "README.md", "size": 1004, "pat": "mnemonic", "line": 15, "text": "- `seed.ct`: the encrypted wallet mnemonic"}
+{"oid": "eea792a8bb39", "path": "README.md", "size": 1004, "pat": "mnemonic", "line": 22, "text": "There is no passphrase, PBKDF2, AES-GCM, sealed storage envelope, or additional encryption layer protecting the mnemonic."}
+{"oid": "eea792a8bb39", "path": "README.md", "size": 1004, "pat": "mnemonic", "line": 26, "text": "The winning condition is simple: recover the mnemonic encrypted in `seed.ct` and use it to submit a valid transaction from the funded wallet before the challenge is withdrawn."}
+{"oid": "eea792a8bb39", "path": "README.md", "size": 1004, "pat": "mnemonic", "line": 28, "text": "The secret key and plaintext mnemonic are not published."}

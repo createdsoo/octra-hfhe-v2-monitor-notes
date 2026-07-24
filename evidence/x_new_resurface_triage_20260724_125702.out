@@ -1,0 +1,71 @@
+{
+  "total_urls": 13,
+  "new_urls": [],
+  "triage": [
+    {
+      "url": "https://x.com/octralex/status/2075870093708235148",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra/status/2074422879131668578",
+      "new_this_cycle": false,
+      "triage": "official HFHE/v2 announcement; already archived"
+    },
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/OxCryptoQueen/status/2074424954318176591",
+      "new_this_cycle": false,
+      "triage": "known generic repost/context; no target secret"
+    },
+    {
+      "url": "https://x.com/octralex/status/2074423534462362042",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octralex",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/kaiden79/status/2075543111984628115",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/octra/status/2074456863874097405",
+      "new_this_cycle": false,
+      "triage": "official generic/update post; no target secret in prior archive"
+    },
+    {
+      "url": "https://x.com/octrabunch/status/2075346412384952744",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octrabunch/status/2074425702716187086",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octrabunch",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/hashtag/HFHE",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    }
+  ]
+}

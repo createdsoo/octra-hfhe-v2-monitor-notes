@@ -1,0 +1,90 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-24T12:57:06.904611Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 14214
+
+## query: site:x.com octra hfhe solved
+bytes 14208
+
+## query: site:x.com octra hfhe private key
+bytes 14230
+
+## query: site:x.com octra hfhe lpn samples
+bytes 14212
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14262
+
+## query: site:x.com 2075336875322032268
+bytes 14218
+
+## query: site:x.com octralex HFHE challenge
+bytes 32904
+1. The challenge is now easier, but also fairer according even to initial ...
+   https://x.com/octralex/status/2075870093708235148
+   
+2. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+3. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+4. To Test its HFHE encryption, @octra is launching a challenge for all ...
+   https://x.com/OxCryptoQueen/status/2074424954318176591
+   
+5. We have received over 500 "reports" that the scheme is not secure, most ...
+   https://x.com/octralex/status/2074423534462362042
+   
+6. alex (@octralex) / Posts / X
+   https://x.com/octralex
+   
+7. @octralex Respecting the "move the funds or it doesn't count" standard ...
+   https://x.com/kaiden79/status/2075543111984628115
+   
+8. update: we have moved the challenge funds back to the octra labs wallet ...
+   https://x.com/octra/status/2074456863874097405
+   
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 32045
+1. the challenge to hack octra is back prepare your slop machines
+   https://x.com/octrabunch/status/2075346412384952744
+   
+2. challenge: hack octra for 1 million OCT no slop is allowed
+   https://x.com/octrabunch/status/2074425702716187086
+   
+3. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+4. To Test its HFHE encryption, @octra is launching a challenge for all ...
+   https://x.com/OxCryptoQueen/status/2074424954318176591
+   
+5. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+6. bunch (@octrabunch) / Posts / X
+   https://x.com/octrabunch
+   
+7. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+8. "#HFHE" - Results on X | Live Posts & Updates
+   https://x.com/hashtag/HFHE
+   
+
+# unique candidate X URLs
+https://x.com/octralex/status/2075870093708235148
+https://x.com/octra/status/2074422879131668578
+https://x.com/octra/status/2075336875322032268
+https://x.com/OxCryptoQueen/status/2074424954318176591
+https://x.com/octralex/status/2074423534462362042
+https://x.com/octralex
+https://x.com/kaiden79/status/2075543111984628115
+https://x.com/octra/status/2074456863874097405
+https://x.com/octrabunch/status/2075346412384952744
+https://x.com/octrabunch/status/2074425702716187086
+https://x.com/octrabunch
+https://x.com/octra
+https://x.com/hashtag/HFHE

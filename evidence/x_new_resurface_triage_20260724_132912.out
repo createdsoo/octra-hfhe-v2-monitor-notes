@@ -1,0 +1,49 @@
+{
+  "total_urls": 8,
+  "new_urls": [
+    "https://x.com/X.",
+    "https://x.com/SportsVanessa/status/2077073254012068005"
+  ],
+  "triage": [
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/X.",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/SportsVanessa/status/2077073254012068005",
+      "new_this_cycle": true,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2075388207882256852",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2077300596064100794",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/Kubo100x/status/2076815889291505832",
+      "new_this_cycle": false,
+      "triage": "known commentary/negative audit; no target secret"
+    },
+    {
+      "url": "https://x.com/eienel_eth/status/2075705444639629727",
+      "new_this_cycle": false,
+      "triage": "known PR/commentary; no target secret"
+    }
+  ]
+}

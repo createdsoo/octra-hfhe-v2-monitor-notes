@@ -1,0 +1,89 @@
+/Users/koala/hfhe_challenge_v2/twitter_public_search_refresh.py:14: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print('# Public Twitter/X search via DuckDuckGo', datetime.datetime.utcnow().isoformat()+'Z')
+# Public Twitter/X search via DuckDuckGo 2026-07-24T03:23:04.053588Z
+
+## query: site:x.com octra HFHE challenge v2
+bytes 33921
+1. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+2. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+3. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+4. update: we have moved the challenge funds back to the octra labs wallet ...
+   https://x.com/octra/status/2074456863874097405
+   
+5. DAY 3 UPDATE (WRITTEN + RAN) built + ran the timing/constancy probes on ...
+   https://x.com/Kubo100x/status/2076482459785625853
+   
+6. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+7. spent time investigating the Octra HFHE v2 bounty from the public ...
+   https://x.com/Kubo100x/status/2075388207882256852
+   
+8. the challenge to hack octra is back prepare your slop machines
+   https://x.com/octrabunch/status/2075346412384952744
+   
+
+## query: site:x.com octra hfhe solved
+bytes 14208
+
+## query: site:x.com octra hfhe private key
+bytes 14212
+
+## query: site:x.com octra hfhe lpn samples
+bytes 33590
+1. The challenge is now easier, but also fairer according even to initial ...
+   https://x.com/octralex/status/2075870093708235148
+   
+2. challenge 2 update now there are lpn samples from sk.bin here ...
+   https://x.com/lambda0xE/status/2075787279197508060
+   
+3. Update on Octra HFHE v2 public audit. Day 6 algebraic track complete ...
+   https://x.com/Kubo100x/status/2077300596064100794
+   
+4. @0x2937 let me check. Correct Octra HFHE LPN Parameters (from public ...
+   https://x.com/Kubo100x/status/2075521685269446801
+   
+5. Smoke (@Hikkimori) / Posts / X
+   https://x.com/hikkimori
+   
+6. octra (@octra) / Posts / X
+   https://x.com/octra
+   
+7. open HFHE challenge this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2074422879131668578
+   
+8. open HFHE challenge v2 this wallet holds 500,000 OCT ...
+   https://x.com/octra/status/2075336875322032268
+   
+
+## query: site:x.com octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ
+bytes 14286
+
+## query: site:x.com 2075336875322032268
+bytes 14211
+
+## query: site:x.com octralex HFHE challenge
+bytes 14219
+
+## query: site:x.com octrabunch HFHE challenge
+bytes 14236
+
+# unique candidate X URLs
+https://x.com/octra/status/2075336875322032268
+https://x.com/octra/status/2074422879131668578
+https://x.com/octra
+https://x.com/octra/status/2074456863874097405
+https://x.com/Kubo100x/status/2076482459785625853
+https://x.com/Kubo100x/status/2077300596064100794
+https://x.com/Kubo100x/status/2075388207882256852
+https://x.com/octrabunch/status/2075346412384952744
+https://x.com/octralex/status/2075870093708235148
+https://x.com/lambda0xE/status/2075787279197508060
+https://x.com/Kubo100x/status/2075521685269446801
+https://x.com/hikkimori

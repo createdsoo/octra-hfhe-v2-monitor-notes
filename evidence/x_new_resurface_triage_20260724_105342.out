@@ -1,0 +1,46 @@
+{
+  "total_urls": 8,
+  "new_urls": [],
+  "triage": [
+    {
+      "url": "https://x.com/octrabunch/status/2075346412384952744",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octrabunch/status/2074425702716187086",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra/status/2074422879131668578",
+      "new_this_cycle": false,
+      "triage": "official HFHE/v2 announcement; already archived"
+    },
+    {
+      "url": "https://x.com/OxCryptoQueen/status/2074424954318176591",
+      "new_this_cycle": false,
+      "triage": "known generic repost/context; no target secret"
+    },
+    {
+      "url": "https://x.com/octra/status/2075336875322032268",
+      "new_this_cycle": false,
+      "triage": "official challenge/bounty announcement; already archived"
+    },
+    {
+      "url": "https://x.com/octrabunch",
+      "new_this_cycle": false,
+      "triage": "known commentary; no target secret"
+    },
+    {
+      "url": "https://x.com/octra",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    },
+    {
+      "url": "https://x.com/hashtag/HFHE",
+      "new_this_cycle": false,
+      "triage": "resurfaced/known candidate; no direct secret marker in URL list"
+    }
+  ]
+}
